@@ -1,0 +1,3107 @@
+[
+ {
+  "id": "manali",
+  "name": "Manali",
+  "state": "Himachal Pradesh",
+  "emoji": "🏔️",
+  "gradient": "linear-gradient(135deg,#0e9aa7,#0b2545)",
+  "tagline": "Snowy peaks, pine forests and mountain adventure.",
+  "bestFor": [
+   "nature",
+   "adventure",
+   "relaxation"
+  ],
+  "intercityPP": 3500,
+  "stay": {
+   "budget": 1200,
+   "balanced": 2800,
+   "comfort": 6500
+  },
+  "food": {
+   "budget": 500,
+   "balanced": 900,
+   "comfort": 1600
+  },
+  "local": {
+   "budget": 800,
+   "balanced": 1500,
+   "comfort": 2500
+  },
+  "transportTip": "local taxi or shared cab",
+  "dishes": [
+   "Siddu",
+   "Trout fish",
+   "Himachali dham",
+   "Momos & thukpa"
+  ],
+  "attractions": [
+   {
+    "id": "man-solang",
+    "name": "Solang Valley",
+    "desc": "Valley with ropeway and optional adventure activities.",
+    "categories": [
+     "adventure",
+     "nature"
+    ],
+    "hours": 4,
+    "costPerPerson": 800,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "man-hadimba",
+    "name": "Hadimba Devi Temple",
+    "desc": "Historic wooden temple set in a cedar forest.",
+    "categories": [
+     "culture",
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "man-oldmanali",
+    "name": "Old Manali Cafe Walk",
+    "desc": "Riverside lanes with cafes and live-music spots.",
+    "categories": [
+     "food",
+     "relaxation",
+     "shopping"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "man-sissu",
+    "name": "Atal Tunnel & Sissu",
+    "desc": "Scenic drive to the Lahaul side with mountain views.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 6,
+    "costPerPerson": 500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "man-jogini",
+    "name": "Jogini Waterfall Trek",
+    "desc": "Short forest trail ending at a waterfall.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "man-vashisht",
+    "name": "Vashisht Hot Springs",
+    "desc": "Village temples and natural hot-water springs.",
+    "categories": [
+     "relaxation",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "man-mall",
+    "name": "Mall Road Manali",
+    "desc": "Evening stroll with local shops and street food.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "man-raft",
+    "name": "River Rafting (Kullu)",
+    "desc": "Guided rafting on the Beas river, seasonal.",
+    "categories": [
+     "adventure"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 1000,
+    "slot": "afternoon",
+    "intense": true
+   }
+  ]
+ },
+ {
+  "id": "goa",
+  "name": "Goa",
+  "state": "Goa",
+  "emoji": "🏖️",
+  "gradient": "linear-gradient(135deg,#f77f00,#0e9aa7)",
+  "tagline": "Beaches, Portuguese heritage, seafood and nightlife.",
+  "bestFor": [
+   "beaches",
+   "food",
+   "relaxation"
+  ],
+  "intercityPP": 4500,
+  "stay": {
+   "budget": 1500,
+   "balanced": 3500,
+   "comfort": 8000
+  },
+  "food": {
+   "budget": 600,
+   "balanced": 1100,
+   "comfort": 2000
+  },
+  "local": {
+   "budget": 700,
+   "balanced": 1400,
+   "comfort": 2400
+  },
+  "transportTip": "rented scooter or local taxi",
+  "dishes": [
+   "Goan fish curry",
+   "Bebinca",
+   "Pork vindaloo",
+   "Prawn balchão"
+  ],
+  "attractions": [
+   {
+    "id": "goa-baga",
+    "name": "Baga & Calangute Beach",
+    "desc": "Lively beaches with shacks and sunset views.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "goa-aguada",
+    "name": "Fort Aguada",
+    "desc": "17th-century Portuguese fort with sea views.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "goa-bom",
+    "name": "Basilica of Bom Jesus & Old Goa",
+    "desc": "UNESCO-listed churches of Old Goa.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "goa-water",
+    "name": "Water Sports at Baga",
+    "desc": "Optional parasailing, jet-ski and banana rides.",
+    "categories": [
+     "adventure",
+     "beaches"
+    ],
+    "hours": 2,
+    "costPerPerson": 1500,
+    "slot": "afternoon",
+    "intense": true
+   },
+   {
+    "id": "goa-anjuna",
+    "name": "Anjuna Flea Market",
+    "desc": "Weekly market for crafts, clothes and snacks.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "goa-palolem",
+    "name": "Palolem Beach",
+    "desc": "Calm crescent beach in South Goa.",
+    "categories": [
+     "beaches",
+     "nature",
+     "relaxation"
+    ],
+    "hours": 4,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "goa-fontainhas",
+    "name": "Fontainhas Latin Quarter",
+    "desc": "Colourful Portuguese-era lanes in Panaji.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "goa-dudh",
+    "name": "Dudhsagar Waterfall",
+    "desc": "Multi-tier waterfall reached by jeep safari.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 5,
+    "costPerPerson": 700,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "goa-cruise",
+    "name": "Mandovi Sunset Cruise",
+    "desc": "Evening river cruise with music and dance.",
+    "categories": [
+     "sightseeing",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 500,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "jaipur",
+  "name": "Jaipur",
+  "state": "Rajasthan",
+  "emoji": "🏰",
+  "gradient": "linear-gradient(135deg,#d6603a,#f4b942)",
+  "tagline": "The Pink City of forts, palaces and bazaars.",
+  "bestFor": [
+   "history",
+   "culture",
+   "shopping",
+   "food"
+  ],
+  "intercityPP": 2500,
+  "stay": {
+   "budget": 1000,
+   "balanced": 2600,
+   "comfort": 6000
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 850,
+   "comfort": 1500
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2200
+  },
+  "transportTip": "auto-rickshaw or app cab",
+  "dishes": [
+   "Dal baati churma",
+   "Laal maas",
+   "Pyaaz kachori",
+   "Ghewar"
+  ],
+  "attractions": [
+   {
+    "id": "jai-amber",
+    "name": "Amber Fort",
+    "desc": "Hilltop fort-palace with mirrored halls.",
+    "categories": [
+     "history",
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 3,
+    "costPerPerson": 200,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "jai-city",
+    "name": "City Palace",
+    "desc": "Royal residence with museums and courtyards.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 300,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "jai-hawa",
+    "name": "Hawa Mahal",
+    "desc": "Iconic honeycomb facade of the Palace of Winds.",
+    "categories": [
+     "sightseeing",
+     "history"
+    ],
+    "hours": 1,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "jai-jantar",
+    "name": "Jantar Mantar",
+    "desc": "Historic astronomical observatory.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "jai-bapu",
+    "name": "Bapu Bazaar",
+    "desc": "Textiles, jewellery, juttis and street snacks.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "jai-nahar",
+    "name": "Nahargarh Fort Sunset",
+    "desc": "City views from the Aravalli ridge.",
+    "categories": [
+     "sightseeing",
+     "nature"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "jai-chokhi",
+    "name": "Chokhi Dhani Village Experience",
+    "desc": "Rajasthani village-style dinner and folk shows.",
+    "categories": [
+     "culture",
+     "food"
+    ],
+    "hours": 3,
+    "costPerPerson": 800,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "jai-jal",
+    "name": "Jal Mahal Viewpoint",
+    "desc": "Palace in the middle of Man Sagar Lake.",
+    "categories": [
+     "sightseeing",
+     "relaxation"
+    ],
+    "hours": 1,
+    "costPerPerson": 0,
+    "slot": "any",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "agra",
+  "name": "Agra",
+  "state": "Uttar Pradesh",
+  "emoji": "🕌",
+  "gradient": "linear-gradient(135deg,#0b2545,#d6603a)",
+  "tagline": "Home of the Taj Mahal and Mughal heritage.",
+  "bestFor": [
+   "history",
+   "culture",
+   "sightseeing"
+  ],
+  "intercityPP": 2000,
+  "stay": {
+   "budget": 900,
+   "balanced": 2400,
+   "comfort": 5500
+  },
+  "food": {
+   "budget": 400,
+   "balanced": 800,
+   "comfort": 1400
+  },
+  "local": {
+   "budget": 500,
+   "balanced": 1000,
+   "comfort": 1800
+  },
+  "transportTip": "e-rickshaw or app cab",
+  "dishes": [
+   "Petha",
+   "Bedai & jalebi",
+   "Mughlai kebabs",
+   "Dalmoth"
+  ],
+  "attractions": [
+   {
+    "id": "agr-taj",
+    "name": "Taj Mahal",
+    "desc": "The ivory-marble mausoleum, best at sunrise.",
+    "categories": [
+     "history",
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 3,
+    "costPerPerson": 1100,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "agr-fort",
+    "name": "Agra Fort",
+    "desc": "Red-sandstone Mughal fort with river views.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 600,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "agr-mehtab",
+    "name": "Mehtab Bagh",
+    "desc": "Garden with a view of the Taj across the river.",
+    "categories": [
+     "sightseeing",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 300,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "agr-fatehpur",
+    "name": "Fatehpur Sikri",
+    "desc": "Abandoned Mughal capital, UNESCO World Heritage Site.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 3.5,
+    "costPerPerson": 600,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "agr-kinari",
+    "name": "Kinari Bazaar",
+    "desc": "Old-city market for marble crafts and sweets.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "agr-itimad",
+    "name": "Itimad-ud-Daulah (Baby Taj)",
+    "desc": "Delicate marble tomb with inlay work.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1,
+    "costPerPerson": 300,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "agr-food",
+    "name": "Mughlai & Petha Food Trail",
+    "desc": "Sample local sweets and kebabs in Sadar Bazaar.",
+    "categories": [
+     "food",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "rishikesh",
+  "name": "Rishikesh",
+  "state": "Uttarakhand",
+  "emoji": "🧘",
+  "gradient": "linear-gradient(135deg,#2a9d8f,#264653)",
+  "tagline": "Yoga capital of the world on the banks of the Ganga.",
+  "bestFor": [
+   "adventure",
+   "relaxation",
+   "culture",
+   "nature"
+  ],
+  "intercityPP": 2200,
+  "stay": {
+   "budget": 800,
+   "balanced": 2000,
+   "comfort": 5000
+  },
+  "food": {
+   "budget": 400,
+   "balanced": 750,
+   "comfort": 1300
+  },
+  "local": {
+   "budget": 500,
+   "balanced": 1000,
+   "comfort": 1800
+  },
+  "transportTip": "shared tuk-tuk or taxi",
+  "dishes": [
+   "Aloo puri",
+   "Chole bhature",
+   "Kachori sabzi",
+   "Fresh cafe thalis"
+  ],
+  "attractions": [
+   {
+    "id": "rish-jhula",
+    "name": "Laxman Jhula & Ram Jhula",
+    "desc": "Iconic suspension bridges and riverside lanes.",
+    "categories": [
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "rish-aarti",
+    "name": "Ganga Aarti at Triveni Ghat",
+    "desc": "Evening prayer ceremony on the river.",
+    "categories": [
+     "culture",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "rish-raft",
+    "name": "River Rafting",
+    "desc": "Guided rafting on the Ganga, seasonal.",
+    "categories": [
+     "adventure"
+    ],
+    "hours": 3,
+    "costPerPerson": 1000,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "rish-beatles",
+    "name": "Beatles Ashram",
+    "desc": "Forest ashram with murals and meditation huts.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 150,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "rish-neer",
+    "name": "Neer Garh Waterfall",
+    "desc": "Short trek to a tiered waterfall.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": true
+   },
+   {
+    "id": "rish-yoga",
+    "name": "Morning Yoga Session",
+    "desc": "Drop-in beginner-friendly yoga class.",
+    "categories": [
+     "relaxation",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 400,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "rish-bungee",
+    "name": "Bungee / Flying Fox",
+    "desc": "Optional high-adrenaline jump platform.",
+    "categories": [
+     "adventure"
+    ],
+    "hours": 2,
+    "costPerPerson": 3500,
+    "slot": "afternoon",
+    "intense": true
+   },
+   {
+    "id": "rish-tapovan",
+    "name": "Tapovan Cafe Hopping",
+    "desc": "Riverside cafes and small boutiques.",
+    "categories": [
+     "food",
+     "shopping",
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "shimla",
+  "name": "Shimla",
+  "state": "Himachal Pradesh",
+  "emoji": "🚂",
+  "gradient": "linear-gradient(135deg,#5b8def,#0b2545)",
+  "tagline": "Colonial charm, pine ridges and toy-train views.",
+  "bestFor": [
+   "nature",
+   "sightseeing",
+   "shopping",
+   "relaxation"
+  ],
+  "intercityPP": 3000,
+  "stay": {
+   "budget": 1100,
+   "balanced": 2600,
+   "comfort": 6000
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 850,
+   "comfort": 1500
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2000
+  },
+  "transportTip": "local taxi (many roads are walkable)",
+  "dishes": [
+   "Chana madra",
+   "Babru",
+   "Aktori",
+   "Himachali trout"
+  ],
+  "attractions": [
+   {
+    "id": "shi-ridge",
+    "name": "The Ridge & Mall Road",
+    "desc": "Open promenade with colonial buildings and shops.",
+    "categories": [
+     "sightseeing",
+     "shopping"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "shi-jakhu",
+    "name": "Jakhu Temple",
+    "desc": "Hilltop Hanuman temple with panoramic views.",
+    "categories": [
+     "culture",
+     "nature"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "shi-christ",
+    "name": "Christ Church",
+    "desc": "Neo-Gothic church on the Ridge.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "shi-kufri",
+    "name": "Kufri",
+    "desc": "Hill resort with viewpoints and optional pony rides.",
+    "categories": [
+     "adventure",
+     "nature"
+    ],
+    "hours": 4,
+    "costPerPerson": 500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "shi-vice",
+    "name": "Viceregal Lodge",
+    "desc": "Former residence of the British Viceroy.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "shi-train",
+    "name": "Toy Train Short Ride",
+    "desc": "Short segment on the heritage Kalka–Shimla line.",
+    "categories": [
+     "sightseeing",
+     "nature"
+    ],
+    "hours": 2,
+    "costPerPerson": 400,
+    "slot": "any",
+    "intense": false
+   },
+   {
+    "id": "shi-chad",
+    "name": "Chadwick Falls",
+    "desc": "Forest walk to a seasonal waterfall.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": true
+   },
+   {
+    "id": "shi-lakkar",
+    "name": "Lakkar Bazaar",
+    "desc": "Wooden handicrafts and street food.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "shi-mash",
+    "name": "Mashobra & Naldehra",
+    "desc": "Quiet orchards, meadows and a golf-course walk.",
+    "categories": [
+     "nature",
+     "relaxation"
+    ],
+    "hours": 3,
+    "costPerPerson": 100,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "udaipur",
+  "name": "Udaipur",
+  "state": "Rajasthan",
+  "emoji": "🛶",
+  "gradient": "linear-gradient(135deg,#7b4b94,#f4b942)",
+  "tagline": "City of Lakes with royal palaces and sunset boat rides.",
+  "bestFor": [
+   "culture",
+   "history",
+   "relaxation",
+   "sightseeing"
+  ],
+  "intercityPP": 2800,
+  "stay": {
+   "budget": 1100,
+   "balanced": 2800,
+   "comfort": 7000
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 850,
+   "comfort": 1600
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2200
+  },
+  "transportTip": "auto-rickshaw or app cab",
+  "dishes": [
+   "Dal baati churma",
+   "Gatte ki sabzi",
+   "Mawa kachori",
+   "Laal maas"
+  ],
+  "attractions": [
+   {
+    "id": "udr-palace",
+    "name": "City Palace Udaipur",
+    "desc": "Grand lakeside palace complex with museums.",
+    "categories": [
+     "history",
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 300,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "udr-pichola",
+    "name": "Lake Pichola Boat Ride",
+    "desc": "Sunset boat ride past island palaces.",
+    "categories": [
+     "sightseeing",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 400,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "udr-jagdish",
+    "name": "Jagdish Temple",
+    "desc": "Indo-Aryan temple in the heart of the old city.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "udr-saheli",
+    "name": "Saheliyon ki Bari",
+    "desc": "Landscaped garden with fountains.",
+    "categories": [
+     "nature",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "udr-monsoon",
+    "name": "Sajjangarh Monsoon Palace",
+    "desc": "Hilltop palace with valley and lake views.",
+    "categories": [
+     "sightseeing",
+     "nature"
+    ],
+    "hours": 2,
+    "costPerPerson": 300,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "udr-bagore",
+    "name": "Bagore ki Haveli Folk Show",
+    "desc": "Evening dance and puppet performance.",
+    "categories": [
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 150,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "udr-hathipol",
+    "name": "Hathipol Market",
+    "desc": "Handicrafts, miniature paintings and street food.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "varanasi",
+  "name": "Varanasi",
+  "state": "Uttar Pradesh",
+  "emoji": "🪔",
+  "gradient": "linear-gradient(135deg,#d6603a,#0b2545)",
+  "tagline": "Ancient ghats, evening aarti and timeless culture.",
+  "bestFor": [
+   "culture",
+   "history",
+   "food",
+   "relaxation"
+  ],
+  "intercityPP": 2400,
+  "stay": {
+   "budget": 700,
+   "balanced": 1900,
+   "comfort": 5000
+  },
+  "food": {
+   "budget": 350,
+   "balanced": 700,
+   "comfort": 1300
+  },
+  "local": {
+   "budget": 400,
+   "balanced": 900,
+   "comfort": 1600
+  },
+  "transportTip": "e-rickshaw, boat or walking",
+  "dishes": [
+   "Kachori sabzi",
+   "Banarasi paan",
+   "Malaiyo",
+   "Tamatar chaat"
+  ],
+  "attractions": [
+   {
+    "id": "var-aarti",
+    "name": "Ganga Aarti at Dashashwamedh Ghat",
+    "desc": "Evening fire ritual on the river.",
+    "categories": [
+     "culture",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "var-boat",
+    "name": "Sunrise Boat Ride",
+    "desc": "Row along the ghats at dawn.",
+    "categories": [
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 400,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "var-kashi",
+    "name": "Kashi Vishwanath Temple",
+    "desc": "One of the most revered Shiva temples.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "var-sarnath",
+    "name": "Sarnath",
+    "desc": "Buddhist site with stupas and a museum.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 3,
+    "costPerPerson": 100,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "var-food",
+    "name": "Old City Food Walk",
+    "desc": "Lanes of chaat, lassi and sweets.",
+    "categories": [
+     "food",
+     "shopping"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "var-bhu",
+    "name": "BHU & Bharat Kala Bhavan",
+    "desc": "Campus walk and art museum.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "var-assi",
+    "name": "Assi Ghat Morning Walk",
+    "desc": "Quiet riverside walk and yoga spot.",
+    "categories": [
+     "relaxation",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "munnar",
+  "name": "Munnar",
+  "state": "Kerala",
+  "emoji": "🍃",
+  "gradient": "linear-gradient(135deg,#2a9d8f,#1b4332)",
+  "tagline": "Rolling tea hills, misty valleys and spice gardens.",
+  "bestFor": [
+   "nature",
+   "relaxation",
+   "sightseeing"
+  ],
+  "intercityPP": 3800,
+  "stay": {
+   "budget": 1300,
+   "balanced": 3000,
+   "comfort": 7000
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 850,
+   "comfort": 1500
+  },
+  "local": {
+   "budget": 700,
+   "balanced": 1400,
+   "comfort": 2400
+  },
+  "transportTip": "local taxi or jeep",
+  "dishes": [
+   "Appam with stew",
+   "Kerala sadya",
+   "Puttu & kadala curry",
+   "Fish curry"
+  ],
+  "attractions": [
+   {
+    "id": "mun-tea",
+    "name": "Tea Gardens & Tea Museum",
+    "desc": "Walk the plantations and see tea processing.",
+    "categories": [
+     "nature",
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 150,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mun-eravikulam",
+    "name": "Eravikulam National Park",
+    "desc": "Mountain grassland and Nilgiri tahr habitat.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 3,
+    "costPerPerson": 300,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "mun-mattupetty",
+    "name": "Mattupetty Dam Boating",
+    "desc": "Calm lake boating among hills.",
+    "categories": [
+     "relaxation",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 300,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "mun-top",
+    "name": "Top Station Viewpoint",
+    "desc": "High viewpoint over the Western Ghats.",
+    "categories": [
+     "sightseeing",
+     "nature"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mun-falls",
+    "name": "Attukad Waterfalls",
+    "desc": "Short walk to a scenic waterfall.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": true
+   },
+   {
+    "id": "mun-spice",
+    "name": "Spice Garden Visit",
+    "desc": "Guided walk through cardamom and pepper plants.",
+    "categories": [
+     "food",
+     "culture",
+     "nature"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 200,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "mun-market",
+    "name": "Munnar Town Market",
+    "desc": "Tea, spices and chocolates to take home.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "darjeeling",
+  "name": "Darjeeling",
+  "state": "West Bengal",
+  "emoji": "☕",
+  "gradient": "linear-gradient(135deg,#5b8def,#2a9d8f)",
+  "tagline": "Tea estates, toy train and Kanchenjunga sunrise.",
+  "bestFor": [
+   "nature",
+   "sightseeing",
+   "culture",
+   "food"
+  ],
+  "intercityPP": 3500,
+  "stay": {
+   "budget": 1000,
+   "balanced": 2500,
+   "comfort": 6000
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 800,
+   "comfort": 1400
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2000
+  },
+  "transportTip": "shared jeep or local taxi",
+  "dishes": [
+   "Momos",
+   "Thukpa",
+   "Darjeeling tea",
+   "Sel roti"
+  ],
+  "attractions": [
+   {
+    "id": "dar-tiger",
+    "name": "Tiger Hill Sunrise",
+    "desc": "Pre-dawn drive for Kanchenjunga views.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 150,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "dar-train",
+    "name": "Himalayan Toy Train Joy Ride",
+    "desc": "Heritage steam train ride.",
+    "categories": [
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 1200,
+    "slot": "any",
+    "intense": false
+   },
+   {
+    "id": "dar-tea",
+    "name": "Happy Valley Tea Estate",
+    "desc": "Tea garden walk and tasting.",
+    "categories": [
+     "nature",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 100,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "dar-batasia",
+    "name": "Batasia Loop & War Memorial",
+    "desc": "Train loop with mountain views.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "dar-pagoda",
+    "name": "Peace Pagoda & Ghum Monastery",
+    "desc": "Peaceful Buddhist sites.",
+    "categories": [
+     "culture",
+     "history",
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "dar-mall",
+    "name": "Chowrasta Mall",
+    "desc": "Open square with shops and cafes.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "dar-hmi",
+    "name": "Himalayan Mountaineering Institute & Zoo",
+    "desc": "Museum and snow leopard breeding centre.",
+    "categories": [
+     "adventure",
+     "nature"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 300,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "leh",
+  "name": "Leh Ladakh",
+  "state": "Ladakh",
+  "emoji": "⛰️",
+  "gradient": "linear-gradient(135deg,#8d6e63,#0b2545)",
+  "tagline": "High-altitude lakes and monasteries. Rest on day 1 to acclimatise.",
+  "bestFor": [
+   "adventure",
+   "nature",
+   "culture",
+   "sightseeing"
+  ],
+  "intercityPP": 8000,
+  "stay": {
+   "budget": 1500,
+   "balanced": 3500,
+   "comfort": 8000
+  },
+  "food": {
+   "budget": 600,
+   "balanced": 1000,
+   "comfort": 1800
+  },
+  "local": {
+   "budget": 1500,
+   "balanced": 2800,
+   "comfort": 4500
+  },
+  "transportTip": "local taxi (shared or private)",
+  "dishes": [
+   "Thukpa",
+   "Skyu",
+   "Butter tea",
+   "Momos"
+  ],
+  "attractions": [
+   {
+    "id": "leh-pangong",
+    "name": "Pangong Lake Day Trip",
+    "desc": "Long scenic drive to a high-altitude lake. Permits extra.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 9,
+    "costPerPerson": 400,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "leh-palace",
+    "name": "Leh Palace",
+    "desc": "17th-century palace above the old town.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "leh-shanti",
+    "name": "Shanti Stupa Sunset",
+    "desc": "Hilltop stupa with sunset views.",
+    "categories": [
+     "culture",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "leh-thiksey",
+    "name": "Thiksey Monastery",
+    "desc": "Hilltop monastery with a giant Maitreya statue.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "leh-magnetic",
+    "name": "Magnetic Hill & Sangam",
+    "desc": "Roadside curiosity and river confluence.",
+    "categories": [
+     "sightseeing",
+     "nature"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "leh-market",
+    "name": "Leh Main Market",
+    "desc": "Pashmina, souvenirs and bakeries.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "leh-raft",
+    "name": "Indus River Rafting",
+    "desc": "Seasonal rafting on the Indus.",
+    "categories": [
+     "adventure"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 1500,
+    "slot": "afternoon",
+    "intense": true
+   }
+  ]
+ },
+ {
+  "id": "andaman",
+  "name": "Andaman Islands",
+  "state": "Andaman & Nicobar",
+  "emoji": "🏝️",
+  "gradient": "linear-gradient(135deg,#00b4d8,#0b2545)",
+  "tagline": "Clear water, coral reefs and quiet white-sand beaches.",
+  "bestFor": [
+   "beaches",
+   "adventure",
+   "relaxation",
+   "nature"
+  ],
+  "intercityPP": 9000,
+  "stay": {
+   "budget": 2000,
+   "balanced": 4500,
+   "comfort": 10000
+  },
+  "food": {
+   "budget": 700,
+   "balanced": 1300,
+   "comfort": 2300
+  },
+  "local": {
+   "budget": 900,
+   "balanced": 1700,
+   "comfort": 2800
+  },
+  "transportTip": "local taxi, ferry or rented scooter",
+  "dishes": [
+   "Fresh seafood thali",
+   "Coconut curry",
+   "Grilled fish",
+   "Tropical fruit bowls"
+  ],
+  "attractions": [
+   {
+    "id": "and-radha",
+    "name": "Radhanagar Beach (Havelock)",
+    "desc": "Famous white-sand beach and sunset spot.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "and-scuba",
+    "name": "Scuba Diving",
+    "desc": "Beginner discovery dive with an instructor.",
+    "categories": [
+     "adventure",
+     "beaches"
+    ],
+    "hours": 3,
+    "costPerPerson": 3500,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "and-jail",
+    "name": "Cellular Jail & Light Show",
+    "desc": "Colonial-era jail museum and evening show.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "and-elephant",
+    "name": "Elephant Beach Snorkelling",
+    "desc": "Reef snorkelling by boat. Ferry share included.",
+    "categories": [
+     "adventure",
+     "beaches"
+    ],
+    "hours": 3,
+    "costPerPerson": 1500,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "and-ross",
+    "name": "Ross Island",
+    "desc": "Ruined British settlement overrun by nature.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 100,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "and-neil",
+    "name": "Neil Island Day Trip",
+    "desc": "Calm beaches and a natural rock bridge. Ferry share included.",
+    "categories": [
+     "beaches",
+     "nature",
+     "relaxation"
+    ],
+    "hours": 6,
+    "costPerPerson": 800,
+    "slot": "any",
+    "intense": false
+   },
+   {
+    "id": "and-corbyn",
+    "name": "Corbyn's Cove Beach",
+    "desc": "Easy beach near Port Blair.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "mumbai",
+  "name": "Mumbai",
+  "state": "Maharashtra",
+  "emoji": "🌆",
+  "gradient": "linear-gradient(135deg,#264653,#f77f00)",
+  "tagline": "Colonial landmarks, sea promenades and street food.",
+  "bestFor": [
+   "food",
+   "shopping",
+   "history",
+   "sightseeing"
+  ],
+  "intercityPP": 3500,
+  "stay": {
+   "budget": 2500,
+   "balanced": 5500,
+   "comfort": 12000
+  },
+  "food": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2500
+  },
+  "local": {
+   "budget": 800,
+   "balanced": 1500,
+   "comfort": 2800
+  },
+  "transportTip": "local train, app cab or taxi",
+  "dishes": [
+   "Vada pav",
+   "Pav bhaji",
+   "Bombay sandwich",
+   "Bombil fry"
+  ],
+  "attractions": [
+   {
+    "id": "mum-gateway",
+    "name": "Gateway of India & Colaba",
+    "desc": "Harbour monument and heritage streets.",
+    "categories": [
+     "sightseeing",
+     "history"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mum-elephanta",
+    "name": "Elephanta Caves",
+    "desc": "Ferry trip to rock-cut cave temples.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 4,
+    "costPerPerson": 300,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mum-marine",
+    "name": "Marine Drive Sunset",
+    "desc": "Seaside promenade at golden hour.",
+    "categories": [
+     "relaxation",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "mum-cst",
+    "name": "Chhatrapati Shivaji Terminus",
+    "desc": "Victorian Gothic railway station.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mum-chowpatty",
+    "name": "Chowpatty Street Food",
+    "desc": "Beachfront chaat and kulfi stalls.",
+    "categories": [
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "mum-colaba",
+    "name": "Colaba Causeway Shopping",
+    "desc": "Street shopping for clothes, jewellery and books.",
+    "categories": [
+     "shopping"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "mum-sgnp",
+    "name": "Sanjay Gandhi National Park",
+    "desc": "Forest trails and Kanheri Caves inside the city.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 3,
+    "costPerPerson": 100,
+    "slot": "morning",
+    "intense": true
+   }
+  ]
+ },
+ {
+  "id": "hampi",
+  "name": "Hampi",
+  "state": "Karnataka",
+  "emoji": "🗿",
+  "gradient": "linear-gradient(135deg,#b5651d,#f4b942)",
+  "tagline": "Boulder landscapes and ruins of the Vijayanagara Empire.",
+  "bestFor": [
+   "history",
+   "culture",
+   "adventure",
+   "sightseeing"
+  ],
+  "intercityPP": 3000,
+  "stay": {
+   "budget": 700,
+   "balanced": 1800,
+   "comfort": 4500
+  },
+  "food": {
+   "budget": 350,
+   "balanced": 650,
+   "comfort": 1100
+  },
+  "local": {
+   "budget": 500,
+   "balanced": 1000,
+   "comfort": 1600
+  },
+  "transportTip": "rented bicycle, scooter or auto-rickshaw",
+  "dishes": [
+   "Jowar roti meal",
+   "Mirchi bajji",
+   "Masala dosa",
+   "Cafe thalis"
+  ],
+  "attractions": [
+   {
+    "id": "ham-virupaksha",
+    "name": "Virupaksha Temple",
+    "desc": "Active temple dating back centuries.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ham-vittala",
+    "name": "Vittala Temple & Stone Chariot",
+    "desc": "Famous carved chariot and musical pillars.",
+    "categories": [
+     "history",
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ham-matanga",
+    "name": "Matanga Hill Sunrise",
+    "desc": "Early climb for sweeping views.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "ham-lotus",
+    "name": "Lotus Mahal & Elephant Stables",
+    "desc": "Royal enclosure with Indo-Islamic architecture.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "ham-coracle",
+    "name": "Tungabhadra Coracle Ride",
+    "desc": "Traditional round-boat ride on the river.",
+    "categories": [
+     "relaxation",
+     "adventure"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 300,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "ham-hemakuta",
+    "name": "Hemakuta Hill Sunset",
+    "desc": "Ancient shrines and a sunset view.",
+    "categories": [
+     "sightseeing",
+     "nature"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "ham-cafes",
+    "name": "Virupapuram Riverside Cafes",
+    "desc": "Relaxed cafes across the river.",
+    "categories": [
+     "food",
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "amritsar",
+  "name": "Amritsar",
+  "state": "Punjab",
+  "emoji": "🛕",
+  "gradient": "linear-gradient(135deg,#f4b942,#0b2545)",
+  "tagline": "Golden Temple, Punjabi food and the Wagah Border ceremony.",
+  "bestFor": [
+   "culture",
+   "history",
+   "food"
+  ],
+  "intercityPP": 2200,
+  "stay": {
+   "budget": 900,
+   "balanced": 2300,
+   "comfort": 5500
+  },
+  "food": {
+   "budget": 400,
+   "balanced": 750,
+   "comfort": 1300
+  },
+  "local": {
+   "budget": 500,
+   "balanced": 1000,
+   "comfort": 1700
+  },
+  "transportTip": "e-rickshaw or app cab",
+  "dishes": [
+   "Amritsari kulcha",
+   "Lassi",
+   "Chole bhature",
+   "Jalebi"
+  ],
+  "attractions": [
+   {
+    "id": "amr-golden",
+    "name": "Golden Temple",
+    "desc": "Sikh holy shrine with free community meal.",
+    "categories": [
+     "culture",
+     "history",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "amr-jallian",
+    "name": "Jallianwala Bagh",
+    "desc": "Memorial garden of the 1919 massacre.",
+    "categories": [
+     "history"
+    ],
+    "hours": 1,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "amr-wagah",
+    "name": "Wagah Border Ceremony",
+    "desc": "Evening flag-lowering ceremony.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "amr-partition",
+    "name": "Partition Museum",
+    "desc": "Personal stories of the 1947 Partition.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "amr-food",
+    "name": "Kulcha & Langar Food Trail",
+    "desc": "Famous kulcha spots and sweets.",
+    "categories": [
+     "food",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "amr-hall",
+    "name": "Hall Bazaar",
+    "desc": "Phulkari, juttis and street snacks.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "jaisalmer",
+  "name": "Jaisalmer",
+  "state": "Rajasthan",
+  "emoji": "🐪",
+  "gradient": "linear-gradient(135deg,#e0a030,#7b3f00)",
+  "tagline": "Golden fort city and Thar desert dunes.",
+  "bestFor": [
+   "history",
+   "adventure",
+   "culture",
+   "nature"
+  ],
+  "intercityPP": 3500,
+  "stay": {
+   "budget": 1000,
+   "balanced": 2800,
+   "comfort": 7000
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 850,
+   "comfort": 1500
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2000
+  },
+  "transportTip": "auto-rickshaw or jeep",
+  "dishes": [
+   "Ker sangri",
+   "Dal baati",
+   "Gatte ki sabzi",
+   "Ghotua ladoo"
+  ],
+  "attractions": [
+   {
+    "id": "jsm-fort",
+    "name": "Jaisalmer Fort",
+    "desc": "Living sandstone fort with shops and temples.",
+    "categories": [
+     "history",
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 100,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "jsm-patwon",
+    "name": "Patwon ki Haveli",
+    "desc": "Ornate merchant mansions.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 150,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "jsm-gadisar",
+    "name": "Gadisar Lake",
+    "desc": "Peaceful lake with small temples.",
+    "categories": [
+     "relaxation",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "jsm-sam",
+    "name": "Sam Sand Dunes Camel Safari",
+    "desc": "Sunset camel ride and desert evening.",
+    "categories": [
+     "adventure",
+     "nature"
+    ],
+    "hours": 4,
+    "costPerPerson": 1000,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "jsm-bada",
+    "name": "Bada Bagh Cenotaphs",
+    "desc": "Royal memorials, great at sunset.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "jsm-market",
+    "name": "Sadar Bazaar",
+    "desc": "Mirror-work textiles and handicrafts.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "gangtok",
+  "name": "Gangtok",
+  "state": "Sikkim",
+  "emoji": "🏔️",
+  "gradient": "linear-gradient(135deg,#2a9d8f,#5b8def)",
+  "tagline": "Monasteries, mountain lakes and Himalayan views.",
+  "bestFor": [
+   "nature",
+   "culture",
+   "sightseeing"
+  ],
+  "intercityPP": 4500,
+  "stay": {
+   "budget": 1100,
+   "balanced": 2600,
+   "comfort": 6000
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 800,
+   "comfort": 1400
+  },
+  "local": {
+   "budget": 700,
+   "balanced": 1300,
+   "comfort": 2200
+  },
+  "transportTip": "shared or private taxi",
+  "dishes": [
+   "Momos",
+   "Thukpa",
+   "Sel roti",
+   "Gundruk soup"
+  ],
+  "attractions": [
+   {
+    "id": "gan-tsomgo",
+    "name": "Tsomgo Lake & Baba Mandir",
+    "desc": "High-altitude lake day trip. Permit needed.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 6,
+    "costPerPerson": 600,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "gan-rumtek",
+    "name": "Rumtek Monastery",
+    "desc": "Important Buddhist monastery.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "gan-ropeway",
+    "name": "Gangtok Ropeway & Ganesh Tok",
+    "desc": "Cable car with city views.",
+    "categories": [
+     "sightseeing",
+     "nature"
+    ],
+    "hours": 2,
+    "costPerPerson": 150,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "gan-mg",
+    "name": "MG Marg",
+    "desc": "Pedestrian street with cafes and shops.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "gan-hanuman",
+    "name": "Hanuman Tok Viewpoint",
+    "desc": "Hilltop temple with valley views.",
+    "categories": [
+     "culture",
+     "nature"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "gan-banjhakri",
+    "name": "Banjhakri Falls Energy Park",
+    "desc": "Waterfall park with forest paths.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 2,
+    "costPerPerson": 100,
+    "slot": "afternoon",
+    "intense": true
+   }
+  ]
+ },
+ {
+  "id": "srinagar",
+  "name": "Srinagar",
+  "state": "Jammu & Kashmir",
+  "emoji": "🚣",
+  "gradient": "linear-gradient(135deg,#5b8def,#2a9d8f)",
+  "tagline": "Shikaras on Dal Lake, Mughal gardens and snow meadows.",
+  "bestFor": [
+   "nature",
+   "relaxation",
+   "sightseeing",
+   "adventure"
+  ],
+  "intercityPP": 5500,
+  "stay": {
+   "budget": 1200,
+   "balanced": 3000,
+   "comfort": 8000
+  },
+  "food": {
+   "budget": 500,
+   "balanced": 900,
+   "comfort": 1600
+  },
+  "local": {
+   "budget": 800,
+   "balanced": 1500,
+   "comfort": 2500
+  },
+  "transportTip": "taxi or shikara",
+  "dishes": [
+   "Rogan josh",
+   "Kahwa",
+   "Noon chai",
+   "Wazwan dishes"
+  ],
+  "attractions": [
+   {
+    "id": "sri-dal",
+    "name": "Dal Lake Shikara Ride",
+    "desc": "Boat ride past floating gardens.",
+    "categories": [
+     "relaxation",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 600,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "sri-mughal",
+    "name": "Nishat & Shalimar Mughal Gardens",
+    "desc": "Terraced gardens by the lake.",
+    "categories": [
+     "nature",
+     "history"
+    ],
+    "hours": 3,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "sri-shankar",
+    "name": "Shankaracharya Temple",
+    "desc": "Hilltop temple with city views.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "sri-jama",
+    "name": "Jama Masjid & Old City",
+    "desc": "Wooden mosque and old lanes.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "sri-lal",
+    "name": "Lal Chowk Market",
+    "desc": "Dry fruits, shawls and handicrafts.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "sri-gulmarg",
+    "name": "Gulmarg Day Trip",
+    "desc": "Gondola and alpine meadows, seasonal.",
+    "categories": [
+     "adventure",
+     "nature"
+    ],
+    "hours": 9,
+    "costPerPerson": 1500,
+    "slot": "morning",
+    "intense": true
+   }
+  ]
+ },
+ {
+  "id": "alleppey",
+  "name": "Alleppey",
+  "state": "Kerala",
+  "emoji": "🛶",
+  "gradient": "linear-gradient(135deg,#2a9d8f,#f4b942)",
+  "tagline": "Backwater canals, houseboats and calm beaches.",
+  "bestFor": [
+   "relaxation",
+   "nature",
+   "beaches",
+   "food"
+  ],
+  "intercityPP": 3800,
+  "stay": {
+   "budget": 1200,
+   "balanced": 3200,
+   "comfort": 7500
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 850,
+   "comfort": 1500
+  },
+  "local": {
+   "budget": 500,
+   "balanced": 1000,
+   "comfort": 1800
+  },
+  "transportTip": "auto-rickshaw or boat",
+  "dishes": [
+   "Karimeen pollichathu",
+   "Appam & stew",
+   "Kerala sadya",
+   "Puttu & kadala curry"
+  ],
+  "attractions": [
+   {
+    "id": "all-house",
+    "name": "Backwater Houseboat Cruise",
+    "desc": "Day cruise through canals with lunch.",
+    "categories": [
+     "relaxation",
+     "nature"
+    ],
+    "hours": 6,
+    "costPerPerson": 2500,
+    "slot": "any",
+    "intense": false
+   },
+   {
+    "id": "all-beach",
+    "name": "Alappuzha Beach & Lighthouse",
+    "desc": "Pier, beach and sunset.",
+    "categories": [
+     "beaches",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 20,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "all-marari",
+    "name": "Marari Beach",
+    "desc": "Quiet fishing-village beach.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "all-canoe",
+    "name": "Kuttanad Village Canoe Ride",
+    "desc": "Narrow canal ride past paddy fields.",
+    "categories": [
+     "nature",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "all-krish",
+    "name": "Krishnapuram Palace",
+    "desc": "Kerala-style palace museum.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 20,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "all-market",
+    "name": "Local Canal Market",
+    "desc": "Spices, coir products and snacks.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "ooty",
+  "name": "Ooty",
+  "state": "Tamil Nadu",
+  "emoji": "🌿",
+  "gradient": "linear-gradient(135deg,#2a9d8f,#1b4332)",
+  "tagline": "Nilgiri hills, toy train and tea estates.",
+  "bestFor": [
+   "nature",
+   "relaxation",
+   "sightseeing"
+  ],
+  "intercityPP": 3000,
+  "stay": {
+   "budget": 1000,
+   "balanced": 2500,
+   "comfort": 6000
+  },
+  "food": {
+   "budget": 400,
+   "balanced": 750,
+   "comfort": 1300
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2000
+  },
+  "transportTip": "local taxi",
+  "dishes": [
+   "Ooty varkey",
+   "Homemade chocolates",
+   "South Indian meals",
+   "Nilgiri tea"
+  ],
+  "attractions": [
+   {
+    "id": "oot-train",
+    "name": "Nilgiri Mountain Railway Ride",
+    "desc": "Heritage train through tea hills.",
+    "categories": [
+     "sightseeing",
+     "nature"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 400,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "oot-garden",
+    "name": "Government Botanical Garden",
+    "desc": "Terraced garden with rare plants.",
+    "categories": [
+     "nature",
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "oot-lake",
+    "name": "Ooty Lake Boating",
+    "desc": "Paddle or row boats on the lake.",
+    "categories": [
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 300,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "oot-dodda",
+    "name": "Doddabetta Peak",
+    "desc": "Highest viewpoint in the Nilgiris.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 20,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "oot-tea",
+    "name": "Tea Factory & Museum",
+    "desc": "See tea processing and taste.",
+    "categories": [
+     "food",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 100,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "oot-market",
+    "name": "Charing Cross Market",
+    "desc": "Chocolates, tea and woollens.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "coorg",
+  "name": "Coorg",
+  "state": "Karnataka",
+  "emoji": "☕",
+  "gradient": "linear-gradient(135deg,#6b4226,#2a9d8f)",
+  "tagline": "Coffee plantations, waterfalls and misty hills.",
+  "bestFor": [
+   "nature",
+   "relaxation",
+   "food",
+   "adventure"
+  ],
+  "intercityPP": 3000,
+  "stay": {
+   "budget": 1100,
+   "balanced": 2800,
+   "comfort": 6500
+  },
+  "food": {
+   "budget": 450,
+   "balanced": 800,
+   "comfort": 1400
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2000
+  },
+  "transportTip": "local taxi",
+  "dishes": [
+   "Pandi curry",
+   "Akki roti",
+   "Kadambuttu",
+   "Coorg coffee"
+  ],
+  "attractions": [
+   {
+    "id": "coo-abbey",
+    "name": "Abbey Falls",
+    "desc": "Waterfall in a spice plantation.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "coo-raja",
+    "name": "Raja's Seat",
+    "desc": "Garden viewpoint for sunsets.",
+    "categories": [
+     "sightseeing",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 20,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "coo-coffee",
+    "name": "Coffee Plantation Walk",
+    "desc": "Guided walk with tasting.",
+    "categories": [
+     "nature",
+     "food"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 300,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "coo-dubare",
+    "name": "Dubare Elephant Camp",
+    "desc": "Elephant bathing and feeding, seasonal.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 3,
+    "costPerPerson": 400,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "coo-namdroling",
+    "name": "Namdroling Monastery (Bylakuppe)",
+    "desc": "Large Tibetan Buddhist monastery.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "coo-fort",
+    "name": "Madikeri Fort",
+    "desc": "Old fort and museum.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "pondicherry",
+  "name": "Puducherry",
+  "state": "Puducherry",
+  "emoji": "🏛️",
+  "gradient": "linear-gradient(135deg,#f4b942,#00b4d8)",
+  "tagline": "French quarter, seaside cafes and spiritual calm.",
+  "bestFor": [
+   "culture",
+   "beaches",
+   "food",
+   "relaxation"
+  ],
+  "intercityPP": 3500,
+  "stay": {
+   "budget": 1200,
+   "balanced": 3000,
+   "comfort": 7000
+  },
+  "food": {
+   "budget": 500,
+   "balanced": 950,
+   "comfort": 1700
+  },
+  "local": {
+   "budget": 400,
+   "balanced": 900,
+   "comfort": 1600
+  },
+  "transportTip": "bicycle, scooter or auto-rickshaw",
+  "dishes": [
+   "French-style crepes",
+   "Seafood platter",
+   "Filter coffee",
+   "Baguette sandwiches"
+  ],
+  "attractions": [
+   {
+    "id": "pon-white",
+    "name": "White Town Heritage Walk",
+    "desc": "Colourful French-colonial streets.",
+    "categories": [
+     "history",
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "pon-promenade",
+    "name": "Promenade Beach",
+    "desc": "Seafront walk, best at sunrise or dusk.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "pon-auroville",
+    "name": "Auroville & Matrimandir View",
+    "desc": "Experimental township and meditation dome.",
+    "categories": [
+     "culture",
+     "relaxation"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "pon-paradise",
+    "name": "Paradise Beach Boat Trip",
+    "desc": "Boat ride to a sandy island beach.",
+    "categories": [
+     "beaches",
+     "nature"
+    ],
+    "hours": 3,
+    "costPerPerson": 300,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "pon-ashram",
+    "name": "Sri Aurobindo Ashram",
+    "desc": "Quiet spiritual centre.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "pon-scuba",
+    "name": "Scuba at Temple Reef",
+    "desc": "Beginner dive with instructor, seasonal.",
+    "categories": [
+     "adventure",
+     "beaches"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 3500,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "pon-cafes",
+    "name": "Rue Suffren Cafes & Boutiques",
+    "desc": "Cafes and design shops.",
+    "categories": [
+     "food",
+     "shopping"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "kolkata",
+  "name": "Kolkata",
+  "state": "West Bengal",
+  "emoji": "🌉",
+  "gradient": "linear-gradient(135deg,#264653,#e76f51)",
+  "tagline": "Colonial heritage, art, sweets and street food.",
+  "bestFor": [
+   "history",
+   "food",
+   "culture",
+   "shopping"
+  ],
+  "intercityPP": 2800,
+  "stay": {
+   "budget": 1000,
+   "balanced": 2800,
+   "comfort": 7000
+  },
+  "food": {
+   "budget": 400,
+   "balanced": 800,
+   "comfort": 1500
+  },
+  "local": {
+   "budget": 500,
+   "balanced": 1000,
+   "comfort": 1800
+  },
+  "transportTip": "metro, tram or app cab",
+  "dishes": [
+   "Kathi roll",
+   "Rosogolla",
+   "Mishti doi",
+   "Bengali fish curry"
+  ],
+  "attractions": [
+   {
+    "id": "kol-victoria",
+    "name": "Victoria Memorial",
+    "desc": "Marble museum and gardens.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "kol-howrah",
+    "name": "Howrah Bridge & Flower Market",
+    "desc": "Iconic bridge and Mullick Ghat market.",
+    "categories": [
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "kol-dakshineswar",
+    "name": "Dakshineswar Kali Temple",
+    "desc": "Riverside temple complex.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "kol-museum",
+    "name": "Indian Museum",
+    "desc": "India’s oldest and largest museum.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 50,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "kol-park",
+    "name": "Park Street Food Trail",
+    "desc": "Cafes, rolls and sweets.",
+    "categories": [
+     "food"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "kol-college",
+    "name": "College Street Book Market",
+    "desc": "Rows of second-hand bookstalls.",
+    "categories": [
+     "shopping",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "kol-tram",
+    "name": "Heritage Tram Ride",
+    "desc": "Short ride on Asia’s oldest tram line.",
+    "categories": [
+     "sightseeing",
+     "culture"
+    ],
+    "hours": 1,
+    "costPerPerson": 10,
+    "slot": "any",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "mysuru",
+  "name": "Mysuru",
+  "state": "Karnataka",
+  "emoji": "🏯",
+  "gradient": "linear-gradient(135deg,#d6603a,#f4b942)",
+  "tagline": "Royal palace city with gardens and silk markets.",
+  "bestFor": [
+   "history",
+   "culture",
+   "shopping",
+   "sightseeing"
+  ],
+  "intercityPP": 2800,
+  "stay": {
+   "budget": 900,
+   "balanced": 2400,
+   "comfort": 6000
+  },
+  "food": {
+   "budget": 400,
+   "balanced": 750,
+   "comfort": 1300
+  },
+  "local": {
+   "budget": 500,
+   "balanced": 1000,
+   "comfort": 1700
+  },
+  "transportTip": "auto-rickshaw",
+  "dishes": [
+   "Mysore pak",
+   "Masala dosa",
+   "Bisi bele bath",
+   "Filter coffee"
+  ],
+  "attractions": [
+   {
+    "id": "mys-palace",
+    "name": "Mysore Palace",
+    "desc": "Grand Indo-Saracenic palace.",
+    "categories": [
+     "history",
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 100,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mys-chamundi",
+    "name": "Chamundi Hill",
+    "desc": "Hilltop temple with city views.",
+    "categories": [
+     "culture",
+     "nature"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "mys-brindavan",
+    "name": "Brindavan Gardens Musical Fountain",
+    "desc": "Evening fountain show, near KRS Dam.",
+    "categories": [
+     "relaxation",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 100,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "mys-devaraja",
+    "name": "Devaraja Market",
+    "desc": "Flowers, spices, silk and sandalwood.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "mys-philomena",
+    "name": "St. Philomena's Cathedral",
+    "desc": "Neo-Gothic church.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "mys-zoo",
+    "name": "Mysore Zoo",
+    "desc": "One of India’s oldest zoos.",
+    "categories": [
+     "nature"
+    ],
+    "hours": 3,
+    "costPerPerson": 100,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ }
+]

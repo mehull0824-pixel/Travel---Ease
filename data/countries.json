@@ -1,0 +1,528 @@
+{
+ "IN": {
+  "name": "India",
+  "currency": "Indian rupee (INR)",
+  "plug": "Type C, D and M (230 V)",
+  "language": "Hindi, English and regional languages",
+  "visa": "",
+  "visaUrl": "",
+  "apps": [
+   "IRCTC Rail Connect",
+   "ixigo",
+   "RedBus",
+   "Uber / Ola / Rapido",
+   "Google Maps"
+  ],
+  "tips": [
+   "Carry a digital and printed copy of your ID; hotels and many trains ask for it.",
+   "Download offline maps and keep some cash, as small towns and hill areas can have patchy UPI/network.",
+   "Book trains early (open ~60 days ahead), especially for weekends and festivals."
+  ],
+  "emergency": {
+   "general": "112",
+   "numbers": [
+    {
+     "service": "Police",
+     "number": "100"
+    },
+    {
+     "service": "Fire",
+     "number": "101"
+    },
+    {
+     "service": "Ambulance",
+     "number": "102"
+    },
+    {
+     "service": "Emergency ambulance (many states)",
+     "number": "108"
+    },
+    {
+     "service": "Women helpline",
+     "number": "1091"
+    },
+    {
+     "service": "Child helpline",
+     "number": "1098"
+    },
+    {
+     "service": "Tourist helpline (Ministry of Tourism, 24x7)",
+     "number": "1363"
+    },
+    {
+     "service": "Railway helpline",
+     "number": "139"
+    },
+    {
+     "service": "National Highway helpline",
+     "number": "1033"
+    },
+    {
+     "service": "Cyber crime helpline",
+     "number": "1930"
+    }
+   ],
+   "note": "112 is the all-in-one emergency number across India. Numbers can vary slightly by state."
+  }
+ },
+ "AE": {
+  "name": "United Arab Emirates",
+  "currency": "UAE dirham (AED)",
+  "plug": "Type G (230 V)",
+  "language": "Arabic and English",
+  "visa": "Check the current rules for Indian passport holders (visa on arrival or e-visa conditions can change).",
+  "visaUrl": "https://u.ae/en/information-and-services/visa-and-emirates-id",
+  "apps": [
+   "Careem",
+   "Uber",
+   "RTA Dubai Metro",
+   "Google Maps"
+  ],
+  "tips": [
+   "Dress modestly in malls, mosques and public areas; public displays of affection can be a problem.",
+   "Carrying or importing medicines needs checking: some common drugs are controlled, so keep prescriptions.",
+   "Alcohol rules are strict, so drink only at licensed venues."
+  ],
+  "emergency": {
+   "general": "999",
+   "numbers": [
+    {
+     "service": "Police",
+     "number": "999"
+    },
+    {
+     "service": "Ambulance",
+     "number": "998"
+    },
+    {
+     "service": "Fire",
+     "number": "997"
+    },
+    {
+     "service": "Tourist police (Dubai)",
+     "number": "901"
+    }
+   ],
+   "note": "Dubai Police also take non-emergency calls on 901."
+  }
+ },
+ "SG": {
+  "name": "Singapore",
+  "currency": "Singapore dollar (SGD)",
+  "plug": "Type G (230 V)",
+  "language": "English, Mandarin, Malay, Tamil",
+  "visa": "Check the current e-visa/entry rules for Indian passport holders; arrival cards are filled online (SG Arrival Card).",
+  "visaUrl": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore",
+  "apps": [
+   "Grab",
+   "Gojek",
+   "SG MRT Map / Google Maps"
+  ],
+  "tips": [
+   "Rules are strict: no chewing gum import, heavy fines for littering and smoking in banned areas.",
+   "Vapes are banned.",
+   "Tap with a contactless bank card on MRT and buses."
+  ],
+  "emergency": {
+   "general": "999",
+   "numbers": [
+    {
+     "service": "Police",
+     "number": "999"
+    },
+    {
+     "service": "Ambulance / Fire",
+     "number": "995"
+    },
+    {
+     "service": "Non-emergency police",
+     "number": "1800 255 0000"
+    }
+   ],
+   "note": ""
+  }
+ },
+ "TH": {
+  "name": "Thailand",
+  "currency": "Thai baht (THB)",
+  "plug": "Types A, B, C and O (230 V)",
+  "language": "Thai and English in tourist areas",
+  "visa": "Check the current visa-exemption/e-visa rules for Indian passport holders; arrival forms (TDAC) are submitted online.",
+  "visaUrl": "https://www.thaievisa.go.th/",
+  "apps": [
+   "Grab",
+   "Bolt",
+   "BTS / MRT maps",
+   "Google Maps"
+  ],
+  "tips": [
+   "Respect the monarchy and dress modestly at temples (cover shoulders and knees).",
+   "Use metered taxis or ride-hailing; agree prices upfront for tuk-tuks.",
+   "If renting a scooter, check your licence and insurance cover."
+  ],
+  "emergency": {
+   "general": "191",
+   "numbers": [
+    {
+     "service": "Police",
+     "number": "191"
+    },
+    {
+     "service": "Tourist Police",
+     "number": "1155"
+    },
+    {
+     "service": "Medical emergency / ambulance",
+     "number": "1669"
+    },
+    {
+     "service": "Fire",
+     "number": "199"
+    }
+   ],
+   "note": "Tourist Police (1155) have English-speaking operators."
+  }
+ },
+ "ID": {
+  "name": "Indonesia",
+  "currency": "Indonesian rupiah (IDR)",
+  "plug": "Types C and F (230 V)",
+  "language": "Indonesian; English in tourist areas",
+  "visa": "Check visa-on-arrival/e-VOA rules for Indian passport holders and the Bali tourist levy (paid online).",
+  "visaUrl": "https://molina.imigrasi.go.id/",
+  "apps": [
+   "Grab",
+   "Gojek",
+   "Bluebird taxi",
+   "Google Maps"
+  ],
+  "tips": [
+   "Dress and behave respectfully at temples; sarongs are often provided.",
+   "Drink bottled or filtered water.",
+   "Scooter accidents are common; if you ride, use a helmet and check your insurance covers it."
+  ],
+  "emergency": {
+   "general": "112",
+   "numbers": [
+    {
+     "service": "General emergency",
+     "number": "112"
+    },
+    {
+     "service": "Police",
+     "number": "110"
+    },
+    {
+     "service": "Ambulance",
+     "number": "118 / 119"
+    },
+    {
+     "service": "Fire",
+     "number": "113"
+    },
+    {
+     "service": "Search & rescue",
+     "number": "115"
+    }
+   ],
+   "note": ""
+  }
+ },
+ "MY": {
+  "name": "Malaysia",
+  "currency": "Malaysian ringgit (MYR)",
+  "plug": "Type G (240 V)",
+  "language": "Malay and English",
+  "visa": "Check the current visa-free/e-visa rules for Indian passport holders; fill in the MDAC digital arrival card.",
+  "visaUrl": "https://www.windowmalaysia.my/evisa/",
+  "apps": [
+   "Grab",
+   "Touch 'n Go eWallet",
+   "KL Go / Google Maps"
+  ],
+  "tips": [
+   "Dress modestly at mosques and temples.",
+   "Use ride-hailing apps or meters; avoid unmetered taxis.",
+   "Malaysia has strict drug laws, with severe penalties."
+  ],
+  "emergency": {
+   "general": "999",
+   "numbers": [
+    {
+     "service": "Police / Ambulance",
+     "number": "999"
+    },
+    {
+     "service": "Fire & Rescue",
+     "number": "994"
+    }
+   ],
+   "note": "999 works from landlines and mobiles; 112 also connects from a mobile phone."
+  }
+ },
+ "NP": {
+  "name": "Nepal",
+  "currency": "Nepalese rupee (NPR); Indian ₹100 and smaller notes are commonly accepted (check current rules)",
+  "plug": "Types C, D and M (230 V)",
+  "language": "Nepali; English in tourist areas",
+  "visa": "Indian citizens can usually enter without a visa, but carry accepted photo ID (passport or voter ID) and check the current rules.",
+  "visaUrl": "https://nepalimmigration.gov.np/",
+  "apps": [
+   "Pathao",
+   "inDrive",
+   "Google Maps (offline)"
+  ],
+  "tips": [
+   "Altitude sickness can affect treks above ~2,500 m; ascend slowly.",
+   "Power cuts and traffic are common; add buffer time to schedules.",
+   "₹500 and ₹2000 notes are not allowed; carry ₹100 and smaller notes."
+  ],
+  "emergency": {
+   "general": "100",
+   "numbers": [
+    {
+     "service": "Police",
+     "number": "100"
+    },
+    {
+     "service": "Fire",
+     "number": "101"
+    },
+    {
+     "service": "Ambulance",
+     "number": "102"
+    },
+    {
+     "service": "Tourist Police",
+     "number": "1144"
+    }
+   ],
+   "note": ""
+  }
+ },
+ "LK": {
+  "name": "Sri Lanka",
+  "currency": "Sri Lankan rupee (LKR)",
+  "plug": "Types D, G and M (230 V)",
+  "language": "Sinhala, Tamil and English",
+  "visa": "Check the current visa/ETA rules for Indian passport holders before booking.",
+  "visaUrl": "https://www.eta.gov.lk/",
+  "apps": [
+   "PickMe",
+   "Uber",
+   "Sri Lanka Railways (for day trips)"
+  ],
+  "tips": [
+   "Dress modestly at temples and remove shoes and hats.",
+   "Use metered tuk-tuks or ride-hailing; agree fares in advance.",
+   "Never pose with your back to a Buddha statue."
+  ],
+  "emergency": {
+   "general": "119",
+   "numbers": [
+    {
+     "service": "Police / Emergency",
+     "number": "119"
+    },
+    {
+     "service": "Ambulance (Suwa Seriya)",
+     "number": "1990"
+    },
+    {
+     "service": "Fire & Rescue",
+     "number": "110"
+    },
+    {
+     "service": "Tourist Police",
+     "number": "1912"
+    }
+   ],
+   "note": ""
+  }
+ },
+ "MV": {
+  "name": "Maldives",
+  "currency": "Maldivian rufiyaa (MVR); US dollars widely used at resorts",
+  "plug": "Types D, G and J (230 V)",
+  "language": "Dhivehi and English",
+  "visa": "Entry is typically on a free tourist visa on arrival, with a confirmed booking and onward ticket; check current rules.",
+  "visaUrl": "https://immigration.gov.mv/",
+  "apps": [
+   "Resort apps",
+   "Local ferry timetables",
+   "Google Maps"
+  ],
+  "tips": [
+   "Alcohol is only available at resorts; local islands have dress and behaviour rules.",
+   "Pork and drone use are restricted; read the rules before packing.",
+   "Book speedboat/seaplane transfers and ferry timings in advance."
+  ],
+  "emergency": {
+   "general": "119",
+   "numbers": [
+    {
+     "service": "Police",
+     "number": "119"
+    },
+    {
+     "service": "Ambulance",
+     "number": "102"
+    },
+    {
+     "service": "Fire & Rescue",
+     "number": "118"
+    }
+   ],
+   "note": ""
+  }
+ },
+ "FR": {
+  "name": "France",
+  "currency": "Euro (EUR)",
+  "plug": "Types C and E (230 V)",
+  "language": "French; English in tourist areas",
+  "visa": "Schengen short-stay visa; insurance with at least €30,000 medical cover is required. Book your appointment early.",
+  "visaUrl": "https://france-visas.gouv.fr/",
+  "apps": [
+   "Citymapper / Google Maps",
+   "Bolt / Uber",
+   "SNCF Connect (trains)"
+  ],
+  "tips": [
+   "Pickpocketing is common near major sights and on the metro; use a cross-body bag.",
+   "Greet with 'Bonjour' before asking anything in shops and cafés.",
+   "Validate your metro ticket and keep it until you exit."
+  ],
+  "emergency": {
+   "general": "112",
+   "numbers": [
+    {
+     "service": "EU emergency number",
+     "number": "112"
+    },
+    {
+     "service": "Police",
+     "number": "17"
+    },
+    {
+     "service": "Ambulance (SAMU)",
+     "number": "15"
+    },
+    {
+     "service": "Fire",
+     "number": "18"
+    }
+   ],
+   "note": ""
+  }
+ },
+ "JP": {
+  "name": "Japan",
+  "currency": "Japanese yen (JPY)",
+  "plug": "Types A and B (100 V)",
+  "language": "Japanese; limited English",
+  "visa": "A short-stay visa is needed for Indian passport holders; e-visa options may be available. Check the current process.",
+  "visaUrl": "https://www.mofa.go.jp/j_info/visit/visa/",
+  "apps": [
+   "Google Maps",
+   "Suica / Pasmo",
+   "Japan Transit Planner"
+  ],
+  "tips": [
+   "Carry some cash: many small shops and temples are cash-only.",
+   "No tipping, and eating while walking is frowned upon.",
+   "Many common medicines (e.g. some cold medicines) are restricted; check before carrying."
+  ],
+  "emergency": {
+   "general": "110",
+   "numbers": [
+    {
+     "service": "Police",
+     "number": "110"
+    },
+    {
+     "service": "Fire / Ambulance",
+     "number": "119"
+    }
+   ],
+   "note": "Ask for English support when you call; the operator can connect an interpreter."
+  }
+ },
+ "TR": {
+  "name": "Türkiye",
+  "currency": "Turkish lira (TRY)",
+  "plug": "Types C and F (230 V)",
+  "language": "Turkish; English in tourist areas",
+  "visa": "Check the current e-visa eligibility for Indian passport holders, which can depend on a valid US/UK/Schengen visa or residence permit.",
+  "visaUrl": "https://www.evisa.gov.tr/en/",
+  "apps": [
+   "BiTaksi",
+   "Uber",
+   "Istanbulkart",
+   "Google Maps"
+  ],
+  "tips": [
+   "Agree the price first or insist on the meter in taxis.",
+   "Dress modestly in mosques and carry a scarf.",
+   "Carry a copy of your passport; keep the original in the hotel safe."
+  ],
+  "emergency": {
+   "general": "112",
+   "numbers": [
+    {
+     "service": "Unified emergency",
+     "number": "112"
+    },
+    {
+     "service": "Police",
+     "number": "155"
+    },
+    {
+     "service": "Gendarmerie",
+     "number": "156"
+    }
+   ],
+   "note": ""
+  }
+ },
+ "GB": {
+  "name": "United Kingdom",
+  "currency": "Pound sterling (GBP)",
+  "plug": "Type G (230 V)",
+  "language": "English",
+  "visa": "A Standard Visitor visa is needed for Indian passport holders; apply well ahead.",
+  "visaUrl": "https://www.gov.uk/standard-visitor",
+  "apps": [
+   "TfL Go / Citymapper",
+   "Uber / Bolt",
+   "Trainline"
+  ],
+  "tips": [
+   "Tap in and out with a contactless card or Oyster on the Tube and buses.",
+   "Pre-book big attractions and the Harry Potter studio tour.",
+   "Travel insurance with healthcare cover is strongly advised, since NHS care for visitors can be charged."
+  ],
+  "emergency": {
+   "general": "999",
+   "numbers": [
+    {
+     "service": "Police / Fire / Ambulance",
+     "number": "999"
+    },
+    {
+     "service": "EU-style alternative",
+     "number": "112"
+    },
+    {
+     "service": "Non-emergency police",
+     "number": "101"
+    },
+    {
+     "service": "NHS non-emergency",
+     "number": "111"
+    }
+   ],
+   "note": ""
+  }
+ }
+}

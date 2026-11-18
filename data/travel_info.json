@@ -1,0 +1,871 @@
+{
+ "manali": {
+  "airport": "Bhuntar (KUU) ~50 km; Chandigarh (IXC) has more flights",
+  "railhead": "Chandigarh / Joginder Nagar, then bus or taxi",
+  "bestTime": "Mar–Jun for greenery, Dec–Feb for snow",
+  "stayAreas": [
+   {
+    "area": "Old Manali",
+    "tier": "budget",
+    "why": "Cafés, hostels, backpacker scene"
+   },
+   {
+    "area": "Mall Road area",
+    "tier": "mid",
+    "why": "Central and walkable"
+   },
+   {
+    "area": "Naggar / Vashisht",
+    "tier": "mid",
+    "why": "Quieter, valley views"
+   }
+  ]
+ },
+ "goa": {
+  "airport": "Dabolim (GOI) for South Goa; Mopa (GOX) for North Goa",
+  "railhead": "Madgaon (MAO), Thivim (TVM)",
+  "bestTime": "Nov–Feb",
+  "stayAreas": [
+   {
+    "area": "Baga / Calangute",
+    "tier": "budget",
+    "why": "Lively, nightlife and water sports"
+   },
+   {
+    "area": "Palolem / Agonda",
+    "tier": "mid",
+    "why": "Quieter southern beaches"
+   },
+   {
+    "area": "Panjim / Fontainhas",
+    "tier": "mid",
+    "why": "Heritage lanes and food"
+   }
+  ]
+ },
+ "jaipur": {
+  "airport": "Jaipur (JAI)",
+  "railhead": "Jaipur Jn (JP)",
+  "bestTime": "Oct–Mar",
+  "stayAreas": [
+   {
+    "area": "Old City / Hawa Mahal",
+    "tier": "mid",
+    "why": "Walkable to bazaars and palaces"
+   },
+   {
+    "area": "C-Scheme",
+    "tier": "luxury",
+    "why": "Modern, restaurants and heritage hotels"
+   },
+   {
+    "area": "Bani Park",
+    "tier": "budget",
+    "why": "Homestays and guesthouses"
+   }
+  ]
+ },
+ "agra": {
+  "airport": "Agra (AGR) has limited flights; Delhi (DEL) ~230 km",
+  "railhead": "Agra Cantt (AGC), Agra Fort (AF)",
+  "bestTime": "Oct–Mar",
+  "stayAreas": [
+   {
+    "area": "Taj Ganj",
+    "tier": "budget",
+    "why": "Walk to the Taj Mahal"
+   },
+   {
+    "area": "Fatehabad Road",
+    "tier": "luxury",
+    "why": "Larger hotels and restaurants"
+   },
+   {
+    "area": "Cantt area",
+    "tier": "mid",
+    "why": "Calmer, near the station"
+   }
+  ]
+ },
+ "rishikesh": {
+  "airport": "Dehradun (DED) ~35 km",
+  "railhead": "Haridwar Jn (HW) ~25 km; Yog Nagari Rishikesh (YNRK)",
+  "bestTime": "Sep–Nov and Feb–Jun (rafting is closed in monsoon)",
+  "stayAreas": [
+   {
+    "area": "Tapovan",
+    "tier": "budget",
+    "why": "Yoga cafés and hostels"
+   },
+   {
+    "area": "Laxman Jhula",
+    "tier": "budget",
+    "why": "River views, walkable"
+   },
+   {
+    "area": "Shivpuri",
+    "tier": "mid",
+    "why": "Riverside rafting camps"
+   }
+  ]
+ },
+ "shimla": {
+  "airport": "Shimla (SLV) has few flights; Chandigarh (IXC) ~115 km",
+  "railhead": "Kalka (KLK), then the Kalka–Shimla toy train",
+  "bestTime": "Mar–Jun; Dec–Jan for snow",
+  "stayAreas": [
+   {
+    "area": "The Mall / Ridge",
+    "tier": "mid",
+    "why": "Central and walkable"
+   },
+   {
+    "area": "Chotta Shimla",
+    "tier": "budget",
+    "why": "Local feel, cheaper stays"
+   },
+   {
+    "area": "Mashobra / Naldehra",
+    "tier": "luxury",
+    "why": "Forest retreats"
+   }
+  ]
+ },
+ "udaipur": {
+  "airport": "Udaipur (UDR)",
+  "railhead": "Udaipur City (UDZ)",
+  "bestTime": "Sep–Mar",
+  "stayAreas": [
+   {
+    "area": "Lake Pichola old city",
+    "tier": "mid",
+    "why": "Lake-view havelis and rooftops"
+   },
+   {
+    "area": "Fateh Sagar",
+    "tier": "mid",
+    "why": "Quieter lakeside"
+   },
+   {
+    "area": "Hiran Magri",
+    "tier": "budget",
+    "why": "Local guesthouses"
+   }
+  ]
+ },
+ "varanasi": {
+  "airport": "Varanasi (VNS)",
+  "railhead": "Varanasi Jn (BSB), Banaras (BSBS)",
+  "bestTime": "Oct–Mar",
+  "stayAreas": [
+   {
+    "area": "Assi Ghat",
+    "tier": "budget",
+    "why": "Cafés and a relaxed ghat atmosphere"
+   },
+   {
+    "area": "Dashashwamedh / Godowlia",
+    "tier": "mid",
+    "why": "Central ghat, aarti close by"
+   },
+   {
+    "area": "Cantonment",
+    "tier": "luxury",
+    "why": "Larger hotels, easy road access"
+   }
+  ]
+ },
+ "munnar": {
+  "airport": "Cochin (COK) ~110 km",
+  "railhead": "Aluva / Ernakulam (ERS), then road",
+  "bestTime": "Sep–Mar",
+  "stayAreas": [
+   {
+    "area": "Munnar town",
+    "tier": "budget",
+    "why": "Shops and local buses"
+   },
+   {
+    "area": "Chinnakanal / Anachal",
+    "tier": "mid",
+    "why": "Views and plantations"
+   },
+   {
+    "area": "Devikulam tea estates",
+    "tier": "luxury",
+    "why": "Resort stays in tea gardens"
+   }
+  ]
+ },
+ "darjeeling": {
+  "airport": "Bagdogra (IXB) ~65 km",
+  "railhead": "New Jalpaiguri (NJP), then the Darjeeling Himalayan toy train or road",
+  "bestTime": "Mar–May and Oct–Nov",
+  "stayAreas": [
+   {
+    "area": "Mall Road / Chowrasta",
+    "tier": "mid",
+    "why": "Central, Kanchenjunga views"
+   },
+   {
+    "area": "Ghoom",
+    "tier": "budget",
+    "why": "Quieter, near the railway"
+   },
+   {
+    "area": "Lebong",
+    "tier": "budget",
+    "why": "Local stays"
+   }
+  ]
+ },
+ "leh": {
+  "airport": "Leh Kushok Bakula Rimpochee (IXL)",
+  "railhead": null,
+  "bestTime": "Jun–Sep when the roads are open; plan acclimatisation days",
+  "stayAreas": [
+   {
+    "area": "Leh Market / Changspa",
+    "tier": "budget",
+    "why": "Cafés and guesthouses"
+   },
+   {
+    "area": "Sankar / Karzoo",
+    "tier": "mid",
+    "why": "Quieter, garden stays"
+   },
+   {
+    "area": "Choglamsar",
+    "tier": "budget",
+    "why": "Local, cheaper"
+   }
+  ]
+ },
+ "andaman": {
+  "airport": "Port Blair (IXZ)",
+  "railhead": null,
+  "bestTime": "Nov–May; ferries from Chennai, Kolkata or Visakhapatnam",
+  "stayAreas": [
+   {
+    "area": "Port Blair (Aberdeen Bazaar)",
+    "tier": "budget",
+    "why": "Gateway, markets"
+   },
+   {
+    "area": "Havelock / Swaraj Dweep",
+    "tier": "luxury",
+    "why": "Radhanagar beach, diving"
+   },
+   {
+    "area": "Neil / Shaheed Dweep",
+    "tier": "mid",
+    "why": "Calmer, quiet beaches"
+   }
+  ]
+ },
+ "mumbai": {
+  "airport": "Mumbai (BOM)",
+  "railhead": "CSMT, Mumbai Central, Dadar, LTT",
+  "bestTime": "Nov–Feb",
+  "stayAreas": [
+   {
+    "area": "Colaba / Fort",
+    "tier": "mid",
+    "why": "Gateway of India, heritage"
+   },
+   {
+    "area": "Bandra",
+    "tier": "luxury",
+    "why": "Trendy, cafés and sea face"
+   },
+   {
+    "area": "Andheri / Airport area",
+    "tier": "budget",
+    "why": "Convenient for early flights"
+   }
+  ]
+ },
+ "hampi": {
+  "airport": "Hubballi (HBX) ~140 km; Vidyanagar/Toranagallu (VDY) ~35 km",
+  "railhead": "Hosapete Jn (HPT) ~13 km",
+  "bestTime": "Oct–Feb",
+  "stayAreas": [
+   {
+    "area": "Hampi Bazaar",
+    "tier": "budget",
+    "why": "Walk to the Virupaksha Temple"
+   },
+   {
+    "area": "Virupapur Gadde",
+    "tier": "budget",
+    "why": "Across the river, relaxed vibe"
+   },
+   {
+    "area": "Kamalapura",
+    "tier": "mid",
+    "why": "Quieter resorts"
+   }
+  ]
+ },
+ "amritsar": {
+  "airport": "Amritsar (ATQ)",
+  "railhead": "Amritsar Jn (ASR)",
+  "bestTime": "Oct–Mar",
+  "stayAreas": [
+   {
+    "area": "Near the Golden Temple",
+    "tier": "budget",
+    "why": "Walk to the temple and Heritage Street"
+   },
+   {
+    "area": "Lawrence Road / Mall Road",
+    "tier": "mid",
+    "why": "Restaurants and shopping"
+   },
+   {
+    "area": "Ranjit Avenue",
+    "tier": "mid",
+    "why": "Modern and quieter"
+   }
+  ]
+ },
+ "jaisalmer": {
+  "airport": "Jaisalmer (JSA) has limited flights; Jodhpur (JDH) ~285 km",
+  "railhead": "Jaisalmer (JSM)",
+  "bestTime": "Oct–Feb",
+  "stayAreas": [
+   {
+    "area": "Inside the Fort",
+    "tier": "mid",
+    "why": "Heritage stays (be mindful of fort conservation)"
+   },
+   {
+    "area": "Gandhi Chowk",
+    "tier": "budget",
+    "why": "Guesthouses with fort views"
+   },
+   {
+    "area": "Sam Sand Dunes camps",
+    "tier": "luxury",
+    "why": "Desert camps for an overnight"
+   }
+  ]
+ },
+ "gangtok": {
+  "airport": "Pakyong (PYG) limited; Bagdogra (IXB) ~125 km",
+  "railhead": "New Jalpaiguri (NJP)",
+  "bestTime": "Mar–May and Oct–Dec",
+  "stayAreas": [
+   {
+    "area": "MG Marg",
+    "tier": "mid",
+    "why": "Pedestrian centre, cafés"
+   },
+   {
+    "area": "Tadong",
+    "tier": "budget",
+    "why": "Local, cheaper"
+   },
+   {
+    "area": "Deorali",
+    "tier": "budget",
+    "why": "Quieter, near the transport hub"
+   }
+  ]
+ },
+ "srinagar": {
+  "airport": "Srinagar (SXR)",
+  "railhead": "Jammu Tawi (JAT) / Katra; rail links to the Valley are expanding, so check current services",
+  "bestTime": "Apr–Oct; Dec–Feb for snow",
+  "stayAreas": [
+   {
+    "area": "Dal Lake houseboats",
+    "tier": "mid",
+    "why": "A classic Kashmir stay"
+   },
+   {
+    "area": "Boulevard Road",
+    "tier": "mid",
+    "why": "Lake views and restaurants"
+   },
+   {
+    "area": "Rajbagh / Lal Chowk",
+    "tier": "budget",
+    "why": "Central and economical"
+   }
+  ]
+ },
+ "alleppey": {
+  "airport": "Cochin (COK) ~85 km",
+  "railhead": "Alappuzha (ALLP)",
+  "bestTime": "Nov–Feb",
+  "stayAreas": [
+   {
+    "area": "Alappuzha town",
+    "tier": "budget",
+    "why": "Local stays, easy access"
+   },
+   {
+    "area": "Punnamada backwaters",
+    "tier": "mid",
+    "why": "Houseboat boarding point"
+   },
+   {
+    "area": "Marari beach",
+    "tier": "mid",
+    "why": "Quiet beach resorts"
+   }
+  ]
+ },
+ "ooty": {
+  "airport": "Coimbatore (CJB) ~90 km",
+  "railhead": "Mettupalayam (MTP), then the Nilgiri Mountain Railway",
+  "bestTime": "Mar–Jun and Sep–Nov",
+  "stayAreas": [
+   {
+    "area": "Charing Cross / Commercial Road",
+    "tier": "mid",
+    "why": "Central, shops and restaurants"
+   },
+   {
+    "area": "Fern Hill",
+    "tier": "mid",
+    "why": "Quieter hillside"
+   },
+   {
+    "area": "Coonoor",
+    "tier": "mid",
+    "why": "Tea estates and calm"
+   }
+  ]
+ },
+ "coorg": {
+  "airport": "Mysuru (MYQ) ~120 km; Mangaluru (IXE) / Kannur (CNN) are alternatives",
+  "railhead": "Mysuru Jn (MYS), then road",
+  "bestTime": "Oct–Mar",
+  "stayAreas": [
+   {
+    "area": "Madikeri",
+    "tier": "budget",
+    "why": "Town base with shops and viewpoints"
+   },
+   {
+    "area": "Coffee estate homestays",
+    "tier": "mid",
+    "why": "Plantation stays with local food"
+   },
+   {
+    "area": "Kushalnagar / Virajpet",
+    "tier": "budget",
+    "why": "Gateway towns"
+   }
+  ]
+ },
+ "pondicherry": {
+  "airport": "Puducherry (PNY) has few flights; Chennai (MAA) ~150 km",
+  "railhead": "Puducherry (PDY), Villupuram Jn (VM)",
+  "bestTime": "Oct–Mar",
+  "stayAreas": [
+   {
+    "area": "White Town",
+    "tier": "mid",
+    "why": "French quarter, cafés"
+   },
+   {
+    "area": "Auroville outskirts",
+    "tier": "budget",
+    "why": "Quiet guesthouses"
+   },
+   {
+    "area": "Promenade seafront",
+    "tier": "mid",
+    "why": "Sea views"
+   }
+  ]
+ },
+ "kolkata": {
+  "airport": "Kolkata (CCU)",
+  "railhead": "Howrah (HWH), Sealdah (SDAH), Kolkata (KOAA)",
+  "bestTime": "Oct–Mar",
+  "stayAreas": [
+   {
+    "area": "Park Street",
+    "tier": "mid",
+    "why": "Restaurants and nightlife"
+   },
+   {
+    "area": "Salt Lake",
+    "tier": "mid",
+    "why": "Modern and calm"
+   },
+   {
+    "area": "North Kolkata",
+    "tier": "budget",
+    "why": "Heritage lanes and old houses"
+   }
+  ]
+ },
+ "mysuru": {
+  "airport": "Mysuru (MYQ) has limited flights; Bengaluru (BLR) ~150 km",
+  "railhead": "Mysuru Jn (MYS)",
+  "bestTime": "Oct–Mar",
+  "stayAreas": [
+   {
+    "area": "Near the Palace / Sayyaji Rao Road",
+    "tier": "mid",
+    "why": "Central, walkable"
+   },
+   {
+    "area": "Chamundi Hill base",
+    "tier": "budget",
+    "why": "Local stays"
+   },
+   {
+    "area": "Hebbal",
+    "tier": "mid",
+    "why": "Quieter, newer hotels"
+   }
+  ]
+ },
+ "dubai": {
+  "airport": "Dubai International (DXB); Al Maktoum (DWC)",
+  "railhead": null,
+  "bestTime": "Nov–Mar (summers are very hot)",
+  "stayAreas": [
+   {
+    "area": "Deira",
+    "tier": "budget",
+    "why": "Near the souks and airport"
+   },
+   {
+    "area": "Bur Dubai",
+    "tier": "mid",
+    "why": "Heritage district, metro access"
+   },
+   {
+    "area": "Marina / JBR",
+    "tier": "mid",
+    "why": "Beach and dining"
+   },
+   {
+    "area": "Downtown",
+    "tier": "luxury",
+    "why": "Burj Khalifa and Dubai Mall"
+   }
+  ]
+ },
+ "singapore": {
+  "airport": "Changi (SIN)",
+  "railhead": null,
+  "bestTime": "Year-round; Feb–Apr is drier",
+  "stayAreas": [
+   {
+    "area": "Bugis / Kampong Glam",
+    "tier": "mid",
+    "why": "Central, cafés"
+   },
+   {
+    "area": "Little India",
+    "tier": "budget",
+    "why": "Value stays, food"
+   },
+   {
+    "area": "Chinatown / Tanjong Pagar",
+    "tier": "mid",
+    "why": "Heritage and nightlife"
+   },
+   {
+    "area": "Marina Bay",
+    "tier": "luxury",
+    "why": "Skyline views"
+   }
+  ]
+ },
+ "bangkok": {
+  "airport": "Suvarnabhumi (BKK); Don Mueang (DMK) for low-cost carriers",
+  "railhead": null,
+  "bestTime": "Nov–Feb",
+  "stayAreas": [
+   {
+    "area": "Khao San / Banglamphu",
+    "tier": "budget",
+    "why": "Backpacker hub near the old city"
+   },
+   {
+    "area": "Sukhumvit",
+    "tier": "mid",
+    "why": "BTS access and dining"
+   },
+   {
+    "area": "Silom / Sathorn",
+    "tier": "mid",
+    "why": "Business district, food"
+   },
+   {
+    "area": "Riverside",
+    "tier": "luxury",
+    "why": "River views and boats"
+   }
+  ]
+ },
+ "phuket": {
+  "airport": "Phuket International (HKT)",
+  "railhead": null,
+  "bestTime": "Nov–Apr (monsoon May–Oct)",
+  "stayAreas": [
+   {
+    "area": "Patong",
+    "tier": "budget",
+    "why": "Lively, nightlife and beaches"
+   },
+   {
+    "area": "Kata / Karon",
+    "tier": "mid",
+    "why": "Calmer, family-friendly"
+   },
+   {
+    "area": "Phuket Town",
+    "tier": "budget",
+    "why": "Heritage and food"
+   },
+   {
+    "area": "Kamala / Surin",
+    "tier": "luxury",
+    "why": "Quiet, upscale"
+   }
+  ]
+ },
+ "bali": {
+  "airport": "Ngurah Rai (DPS)",
+  "railhead": null,
+  "bestTime": "Apr–Oct (dry season)",
+  "stayAreas": [
+   {
+    "area": "Ubud",
+    "tier": "mid",
+    "why": "Culture, rice terraces and yoga"
+   },
+   {
+    "area": "Seminyak / Canggu",
+    "tier": "mid",
+    "why": "Beach clubs, cafés and surf"
+   },
+   {
+    "area": "Uluwatu",
+    "tier": "luxury",
+    "why": "Cliffs and surf"
+   },
+   {
+    "area": "Kuta / Legian",
+    "tier": "budget",
+    "why": "Busy, cheaper stays"
+   }
+  ]
+ },
+ "kuala-lumpur": {
+  "airport": "Kuala Lumpur International (KUL); KLIA2 for low-cost carriers",
+  "railhead": null,
+  "bestTime": "May–Jul and Dec–Feb are less rainy",
+  "stayAreas": [
+   {
+    "area": "Bukit Bintang",
+    "tier": "mid",
+    "why": "Shopping, food and nightlife"
+   },
+   {
+    "area": "KLCC",
+    "tier": "luxury",
+    "why": "Next to the Petronas Towers"
+   },
+   {
+    "area": "Chinatown / Petaling",
+    "tier": "budget",
+    "why": "Value stays, street food"
+   },
+   {
+    "area": "Bangsar",
+    "tier": "mid",
+    "why": "Cafés and a local vibe"
+   }
+  ]
+ },
+ "kathmandu": {
+  "airport": "Tribhuvan International (KTM)",
+  "railhead": null,
+  "bestTime": "Oct–Nov and Mar–Apr; overland options from India exist, so check current rules",
+  "stayAreas": [
+   {
+    "area": "Thamel",
+    "tier": "budget",
+    "why": "Tourist hub, trekking shops"
+   },
+   {
+    "area": "Lazimpat",
+    "tier": "mid",
+    "why": "Quieter, near embassies"
+   },
+   {
+    "area": "Patan (Lalitpur)",
+    "tier": "mid",
+    "why": "Heritage, calmer evenings"
+   }
+  ]
+ },
+ "colombo": {
+  "airport": "Bandaranaike International (CMB), ~35 km north of the city",
+  "railhead": null,
+  "bestTime": "Dec–Mar",
+  "stayAreas": [
+   {
+    "area": "Colombo 3 (Kollupitiya)",
+    "tier": "mid",
+    "why": "Central, beachfront"
+   },
+   {
+    "area": "Fort",
+    "tier": "mid",
+    "why": "Near the station, colonial buildings"
+   },
+   {
+    "area": "Mount Lavinia",
+    "tier": "mid",
+    "why": "Beach hotels"
+   },
+   {
+    "area": "Negombo",
+    "tier": "budget",
+    "why": "Convenient near the airport"
+   }
+  ]
+ },
+ "maldives": {
+  "airport": "Velana International (MLE), Malé",
+  "railhead": null,
+  "bestTime": "Nov–Apr (dry season)",
+  "stayAreas": [
+   {
+    "area": "Maafushi (local island)",
+    "tier": "budget",
+    "why": "Guesthouses, excursions"
+   },
+   {
+    "area": "Hulhumalé",
+    "tier": "mid",
+    "why": "Close to the airport"
+   },
+   {
+    "area": "Resort atolls",
+    "tier": "luxury",
+    "why": "Overwater villas, speedboat/seaplane transfers"
+   }
+  ]
+ },
+ "paris": {
+  "airport": "Charles de Gaulle (CDG); Orly (ORY)",
+  "railhead": null,
+  "bestTime": "Apr–Jun and Sep–Oct",
+  "stayAreas": [
+   {
+    "area": "Le Marais",
+    "tier": "mid",
+    "why": "Central, historic, cafés"
+   },
+   {
+    "area": "Latin Quarter",
+    "tier": "mid",
+    "why": "Student area, bistros"
+   },
+   {
+    "area": "Montmartre",
+    "tier": "mid",
+    "why": "Hilltop village feel"
+   },
+   {
+    "area": "Near Gare du Nord",
+    "tier": "budget",
+    "why": "Value stays with good transport"
+   }
+  ]
+ },
+ "tokyo": {
+  "airport": "Haneda (HND) is closer; Narita (NRT) for many international flights",
+  "railhead": null,
+  "bestTime": "Mar–May (cherry blossoms) and Oct–Nov",
+  "stayAreas": [
+   {
+    "area": "Asakusa / Ueno",
+    "tier": "budget",
+    "why": "Value stays, traditional streets"
+   },
+   {
+    "area": "Shinjuku",
+    "tier": "mid",
+    "why": "Major transport hub, nightlife"
+   },
+   {
+    "area": "Shibuya",
+    "tier": "mid",
+    "why": "Trendy and central"
+   },
+   {
+    "area": "Ginza / Marunouchi",
+    "tier": "luxury",
+    "why": "Upscale shopping"
+   }
+  ]
+ },
+ "istanbul": {
+  "airport": "Istanbul (IST); Sabiha Gökçen (SAW) on the Asian side",
+  "railhead": null,
+  "bestTime": "Apr–May and Sep–Nov",
+  "stayAreas": [
+   {
+    "area": "Sultanahmet",
+    "tier": "mid",
+    "why": "Walk to Hagia Sophia and the Blue Mosque"
+   },
+   {
+    "area": "Beyoğlu / Taksim",
+    "tier": "mid",
+    "why": "Nightlife, shops"
+   },
+   {
+    "area": "Karaköy",
+    "tier": "mid",
+    "why": "Cafés and Galata views"
+   },
+   {
+    "area": "Kadıköy (Asian side)",
+    "tier": "budget",
+    "why": "Local feel, value stays"
+   }
+  ]
+ },
+ "london": {
+  "airport": "Heathrow (LHR); Gatwick (LGW)",
+  "railhead": null,
+  "bestTime": "May–Sep",
+  "stayAreas": [
+   {
+    "area": "Bloomsbury / King's Cross",
+    "tier": "mid",
+    "why": "Near the British Museum and the Eurostar"
+   },
+   {
+    "area": "South Kensington",
+    "tier": "luxury",
+    "why": "Museums and parks"
+   },
+   {
+    "area": "Shoreditch / Camden",
+    "tier": "budget",
+    "why": "Creative areas, value stays"
+   },
+   {
+    "area": "Paddington",
+    "tier": "mid",
+    "why": "Direct Heathrow Express"
+   }
+  ]
+ }
+}

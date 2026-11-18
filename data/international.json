@@ -1,0 +1,1967 @@
+[
+ {
+  "id": "dubai",
+  "name": "Dubai",
+  "state": "United Arab Emirates",
+  "country": "United Arab Emirates",
+  "countryCode": "AE",
+  "region": "international",
+  "emoji": "🏙️",
+  "gradient": "linear-gradient(135deg,#c9a24b,#0b2545)",
+  "tagline": "Record-breaking skyline, desert safaris and world-class shopping.",
+  "bestFor": [
+   "sightseeing",
+   "shopping",
+   "adventure"
+  ],
+  "intercityPP": 24000,
+  "stay": {
+   "budget": 4500,
+   "balanced": 9000,
+   "comfort": 22000
+  },
+  "food": {
+   "budget": 1800,
+   "balanced": 3200,
+   "comfort": 6000
+  },
+  "local": {
+   "budget": 1200,
+   "balanced": 2500,
+   "comfort": 5000
+  },
+  "transportTip": "metro, taxi or ride-hailing app",
+  "dishes": [
+   "Shawarma",
+   "Al Harees",
+   "Luqaimat",
+   "Karak chai"
+  ],
+  "visaPP": 6500,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "dxb-burj",
+    "name": "Burj Khalifa observation deck",
+    "desc": "Skyline views from one of the world's tallest towers.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 3500,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "dxb-mall",
+    "name": "Dubai Mall & Fountain Show",
+    "desc": "Huge mall with an aquarium and the evening fountain show.",
+    "categories": [
+     "shopping",
+     "sightseeing"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "dxb-desert",
+    "name": "Desert safari with dune drive",
+    "desc": "Dune bashing, camel ride and a campfire dinner.",
+    "categories": [
+     "adventure",
+     "nature"
+    ],
+    "hours": 5,
+    "costPerPerson": 3500,
+    "slot": "afternoon",
+    "intense": true
+   },
+   {
+    "id": "dxb-old",
+    "name": "Al Fahidi & Dubai Creek abra ride",
+    "desc": "Wind-tower old quarter and a traditional boat across the Creek.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 100,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "dxb-marina",
+    "name": "Dubai Marina & JBR walk",
+    "desc": "Waterfront promenade, yachts and beach cafés.",
+    "categories": [
+     "relaxation",
+     "sightseeing",
+     "beaches"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "dxb-frame",
+    "name": "Dubai Frame",
+    "desc": "Giant picture frame with views of old and new Dubai.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 1500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "dxb-souk",
+    "name": "Gold & Spice Souks",
+    "desc": "Bustling traditional markets for spices, textiles and gold.",
+    "categories": [
+     "shopping",
+     "culture",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "dxb-mosque",
+    "name": "Abu Dhabi Sheikh Zayed Mosque day trip",
+    "desc": "White-marble grand mosque, a day trip by road.",
+    "categories": [
+     "culture",
+     "history",
+     "sightseeing"
+    ],
+    "hours": 6,
+    "costPerPerson": 1500,
+    "slot": "morning",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "singapore",
+  "name": "Singapore",
+  "state": "Singapore",
+  "country": "Singapore",
+  "countryCode": "SG",
+  "region": "international",
+  "emoji": "🦁",
+  "gradient": "linear-gradient(135deg,#d62839,#0b2545)",
+  "tagline": "A spotless city-state of gardens, hawker food and futuristic skyline.",
+  "bestFor": [
+   "food",
+   "sightseeing",
+   "culture"
+  ],
+  "intercityPP": 32000,
+  "stay": {
+   "budget": 6000,
+   "balanced": 12000,
+   "comfort": 28000
+  },
+  "food": {
+   "budget": 1500,
+   "balanced": 2800,
+   "comfort": 5500
+  },
+  "local": {
+   "budget": 800,
+   "balanced": 1500,
+   "comfort": 3000
+  },
+  "transportTip": "MRT metro and buses (tap-to-pay)",
+  "dishes": [
+   "Hainanese chicken rice",
+   "Laksa",
+   "Chilli crab",
+   "Kaya toast"
+  ],
+  "visaPP": 2500,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "sin-gardens",
+    "name": "Gardens by the Bay",
+    "desc": "Supertree Grove, Cloud Forest and Flower Dome.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 3,
+    "costPerPerson": 1800,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "sin-mbs",
+    "name": "Marina Bay Sands SkyPark",
+    "desc": "Rooftop views over the bay and skyline.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 2000,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "sin-sentosa",
+    "name": "Sentosa Island",
+    "desc": "Beaches, rides and attractions on a resort island.",
+    "categories": [
+     "beaches",
+     "adventure",
+     "sightseeing"
+    ],
+    "hours": 5,
+    "costPerPerson": 2500,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "sin-hawker",
+    "name": "Hawker centre food trail",
+    "desc": "Maxwell, Lau Pa Sat or Newton: iconic cheap eats.",
+    "categories": [
+     "food",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "sin-safari",
+    "name": "Night Safari",
+    "desc": "World's first nocturnal zoo.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 4,
+    "costPerPerson": 3500,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "sin-culture",
+    "name": "Little India & Chinatown",
+    "desc": "Temples, shophouses and street food in two historic quarters.",
+    "categories": [
+     "culture",
+     "food",
+     "shopping"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "sin-botanic",
+    "name": "Singapore Botanic Gardens",
+    "desc": "UNESCO-listed tropical garden with a free entry.",
+    "categories": [
+     "nature",
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "sin-merlion",
+    "name": "Merlion Park & Clarke Quay",
+    "desc": "Iconic Merlion statue and riverside nightlife.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "bangkok",
+  "name": "Bangkok",
+  "state": "Thailand",
+  "country": "Thailand",
+  "countryCode": "TH",
+  "region": "international",
+  "emoji": "🛕",
+  "gradient": "linear-gradient(135deg,#f77f00,#6a1b4d)",
+  "tagline": "Gilded temples, street food and buzzing night markets.",
+  "bestFor": [
+   "culture",
+   "food",
+   "shopping"
+  ],
+  "intercityPP": 20000,
+  "stay": {
+   "budget": 2500,
+   "balanced": 5500,
+   "comfort": 13000
+  },
+  "food": {
+   "budget": 1000,
+   "balanced": 1800,
+   "comfort": 3500
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2500
+  },
+  "transportTip": "BTS Skytrain, MRT, Grab taxi or river boat",
+  "dishes": [
+   "Pad Thai",
+   "Tom yum",
+   "Mango sticky rice",
+   "Som tam"
+  ],
+  "visaPP": 0,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "bkk-palace",
+    "name": "Grand Palace & Wat Phra Kaew",
+    "desc": "Royal palace complex with the Emerald Buddha.",
+    "categories": [
+     "history",
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 3,
+    "costPerPerson": 1400,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "bkk-arun",
+    "name": "Wat Arun",
+    "desc": "Riverside temple best seen at sunset.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 200,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "bkk-chatuchak",
+    "name": "Chatuchak Weekend Market",
+    "desc": "Thousands of stalls for clothes, crafts and snacks.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "bkk-cruise",
+    "name": "Chao Phraya river cruise",
+    "desc": "Dinner or sunset cruise past temples and skyline.",
+    "categories": [
+     "sightseeing",
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 1200,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "bkk-floating",
+    "name": "Floating market day trip",
+    "desc": "Boat-side stalls at Damnoen Saduak.",
+    "categories": [
+     "culture",
+     "food"
+    ],
+    "hours": 5,
+    "costPerPerson": 1500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "bkk-jim",
+    "name": "Jim Thompson House",
+    "desc": "Teak house-museum of Thai silk.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 500,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "bkk-yaowarat",
+    "name": "Yaowarat Chinatown street food",
+    "desc": "Night-time street food tour.",
+    "categories": [
+     "food",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "bkk-lumpini",
+    "name": "Lumphini Park",
+    "desc": "Green city park for a calm walk.",
+    "categories": [
+     "nature",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "phuket",
+  "name": "Phuket",
+  "state": "Thailand",
+  "country": "Thailand",
+  "countryCode": "TH",
+  "region": "international",
+  "emoji": "🏝️",
+  "gradient": "linear-gradient(135deg,#0e9aa7,#f2c14e)",
+  "tagline": "Andaman Sea beaches, island hopping and lively nightlife.",
+  "bestFor": [
+   "beaches",
+   "adventure",
+   "relaxation"
+  ],
+  "intercityPP": 22000,
+  "stay": {
+   "budget": 3000,
+   "balanced": 7000,
+   "comfort": 16000
+  },
+  "food": {
+   "budget": 1100,
+   "balanced": 2000,
+   "comfort": 4000
+  },
+  "local": {
+   "budget": 1000,
+   "balanced": 2000,
+   "comfort": 3500
+  },
+  "transportTip": "tuk-tuk, Grab/Bolt or rented scooter (licence needed)",
+  "dishes": [
+   "Mee hokkien",
+   "Moo hong",
+   "Grilled seafood",
+   "Roti with curry"
+  ],
+  "visaPP": 0,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "hkt-phiphi",
+    "name": "Phi Phi islands day tour",
+    "desc": "Speedboat tour with snorkelling and Maya Bay views.",
+    "categories": [
+     "beaches",
+     "adventure",
+     "nature"
+    ],
+    "hours": 8,
+    "costPerPerson": 3500,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "hkt-buddha",
+    "name": "Big Buddha",
+    "desc": "Hilltop marble Buddha with panoramic views.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "hkt-oldtown",
+    "name": "Old Phuket Town",
+    "desc": "Sino-Portuguese shophouses, cafés and street art.",
+    "categories": [
+     "history",
+     "culture",
+     "food"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "hkt-patong",
+    "name": "Patong Beach",
+    "desc": "Busy beach with water sports and nightlife.",
+    "categories": [
+     "beaches",
+     "shopping"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "hkt-promthep",
+    "name": "Promthep Cape sunset",
+    "desc": "Southern viewpoint known for sunsets.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "hkt-kata",
+    "name": "Kata & Karon beaches",
+    "desc": "Calmer, family-friendly sandy beaches.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "any",
+    "intense": false
+   },
+   {
+    "id": "hkt-phangnga",
+    "name": "Phang Nga Bay tour",
+    "desc": "Limestone karsts and sea-canoe caves.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 8,
+    "costPerPerson": 3000,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "hkt-spa",
+    "name": "Thai massage & spa",
+    "desc": "Traditional massage to unwind.",
+    "categories": [
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 1000,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "bali",
+  "name": "Bali",
+  "state": "Indonesia",
+  "country": "Indonesia",
+  "countryCode": "ID",
+  "region": "international",
+  "emoji": "🌴",
+  "gradient": "linear-gradient(135deg,#2a9d8f,#264653)",
+  "tagline": "Rice terraces, temples, surf beaches and yoga retreats.",
+  "bestFor": [
+   "nature",
+   "culture",
+   "relaxation"
+  ],
+  "intercityPP": 36000,
+  "stay": {
+   "budget": 2500,
+   "balanced": 6000,
+   "comfort": 16000
+  },
+  "food": {
+   "budget": 900,
+   "balanced": 1700,
+   "comfort": 3500
+  },
+  "local": {
+   "budget": 1500,
+   "balanced": 2500,
+   "comfort": 4500
+  },
+  "transportTip": "private driver, Grab/Gojek or hired scooter (licence needed)",
+  "dishes": [
+   "Nasi goreng",
+   "Babi guling",
+   "Satay lilit",
+   "Smoothie bowls"
+  ],
+  "visaPP": 3600,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "bal-monkey",
+    "name": "Sacred Monkey Forest, Ubud",
+    "desc": "Forest sanctuary with temples and macaques.",
+    "categories": [
+     "nature",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 600,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "bal-tegal",
+    "name": "Tegallalang Rice Terraces",
+    "desc": "Layered green terraces and jungle swings.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 300,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "bal-uluwatu",
+    "name": "Uluwatu Temple & Kecak dance",
+    "desc": "Clifftop temple with a sunset fire dance.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 3,
+    "costPerPerson": 1000,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "bal-tanahlot",
+    "name": "Tanah Lot",
+    "desc": "Sea temple on a rock, best at sunset.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 400,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "bal-penida",
+    "name": "Nusa Penida day trip",
+    "desc": "Cliffs, Kelingking viewpoint and snorkelling.",
+    "categories": [
+     "beaches",
+     "nature",
+     "adventure"
+    ],
+    "hours": 8,
+    "costPerPerson": 3500,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "bal-batur",
+    "name": "Mount Batur sunrise trek",
+    "desc": "Pre-dawn volcano hike with sunrise views.",
+    "categories": [
+     "adventure",
+     "nature"
+    ],
+    "hours": 6,
+    "costPerPerson": 3000,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "bal-seminyak",
+    "name": "Seminyak & Kuta beach",
+    "desc": "Surf, sunsets and beach cafés.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "bal-market",
+    "name": "Ubud Art Market",
+    "desc": "Handicrafts, batik and souvenirs.",
+    "categories": [
+     "shopping",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "bal-tirta",
+    "name": "Tirta Empul water temple",
+    "desc": "Holy spring temple where visitors take part in purification.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 400,
+    "slot": "morning",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "kuala-lumpur",
+  "name": "Kuala Lumpur",
+  "state": "Malaysia",
+  "country": "Malaysia",
+  "countryCode": "MY",
+  "region": "international",
+  "emoji": "🗼",
+  "gradient": "linear-gradient(135deg,#1d3557,#e63946)",
+  "tagline": "Twin towers, caves, street food and a mix of cultures.",
+  "bestFor": [
+   "food",
+   "sightseeing",
+   "shopping"
+  ],
+  "intercityPP": 18000,
+  "stay": {
+   "budget": 2800,
+   "balanced": 5500,
+   "comfort": 12000
+  },
+  "food": {
+   "budget": 900,
+   "balanced": 1700,
+   "comfort": 3500
+  },
+  "local": {
+   "budget": 600,
+   "balanced": 1200,
+   "comfort": 2500
+  },
+  "transportTip": "LRT/MRT metro and Grab",
+  "dishes": [
+   "Nasi lemak",
+   "Char kway teow",
+   "Roti canai",
+   "Satay"
+  ],
+  "visaPP": 0,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "kul-petronas",
+    "name": "Petronas Twin Towers & KLCC Park",
+    "desc": "Skybridge views and evening fountain show.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 1800,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "kul-batu",
+    "name": "Batu Caves",
+    "desc": "Hindu cave temple up 272 colourful steps.",
+    "categories": [
+     "culture",
+     "adventure"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "kul-alor",
+    "name": "Jalan Alor night food street",
+    "desc": "Open-air street-food strip.",
+    "categories": [
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "kul-merdeka",
+    "name": "Merdeka Square & Sultan Abdul Samad Building",
+    "desc": "Colonial-era heart of the city.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "kul-central",
+    "name": "Central Market & Petaling Street",
+    "desc": "Crafts, Chinatown stalls and bargains.",
+    "categories": [
+     "shopping",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "kul-tower",
+    "name": "KL Tower",
+    "desc": "Observation deck over the skyline.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 1000,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "kul-genting",
+    "name": "Genting Highlands day trip",
+    "desc": "Cable car, mountain resort and cool air.",
+    "categories": [
+     "adventure",
+     "sightseeing"
+    ],
+    "hours": 7,
+    "costPerPerson": 2500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "kul-gardens",
+    "name": "Perdana Botanical Gardens & Bird Park",
+    "desc": "Green lungs of the city.",
+    "categories": [
+     "nature",
+     "relaxation"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 1200,
+    "slot": "morning",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "kathmandu",
+  "name": "Kathmandu",
+  "state": "Nepal",
+  "country": "Nepal",
+  "countryCode": "NP",
+  "region": "international",
+  "emoji": "🏔️",
+  "gradient": "linear-gradient(135deg,#b5451b,#3d2c8d)",
+  "tagline": "Ancient temples and Himalayan views, close to home.",
+  "bestFor": [
+   "culture",
+   "history",
+   "adventure"
+  ],
+  "intercityPP": 14000,
+  "stay": {
+   "budget": 1500,
+   "balanced": 3500,
+   "comfort": 9000
+  },
+  "food": {
+   "budget": 600,
+   "balanced": 1100,
+   "comfort": 2200
+  },
+  "local": {
+   "budget": 700,
+   "balanced": 1300,
+   "comfort": 2500
+  },
+  "transportTip": "taxi, ride-hailing app or local micro-bus",
+  "dishes": [
+   "Momo",
+   "Dal bhat",
+   "Newari khaja set",
+   "Thukpa"
+  ],
+  "visaPP": 0,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "ktm-pashupati",
+    "name": "Pashupatinath Temple",
+    "desc": "Sacred Shiva temple complex on the Bagmati river.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 2,
+    "costPerPerson": 600,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ktm-boudha",
+    "name": "Boudhanath Stupa",
+    "desc": "One of the largest stupas in the world.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 400,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ktm-swayam",
+    "name": "Swayambhunath (Monkey Temple)",
+    "desc": "Hilltop stupa with city views.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 200,
+    "slot": "afternoon",
+    "intense": true
+   },
+   {
+    "id": "ktm-durbar",
+    "name": "Kathmandu Durbar Square",
+    "desc": "Medieval royal square with temples and palaces.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 1000,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ktm-thamel",
+    "name": "Thamel evening walk",
+    "desc": "Trekking shops, cafés and live music.",
+    "categories": [
+     "shopping",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "ktm-patan",
+    "name": "Patan & Bhaktapur heritage day",
+    "desc": "Newari architecture in two old towns.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 6,
+    "costPerPerson": 1200,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ktm-nagarkot",
+    "name": "Nagarkot sunrise",
+    "desc": "Himalayan sunrise viewpoint outside the valley.",
+    "categories": [
+     "nature",
+     "adventure"
+    ],
+    "hours": 5,
+    "costPerPerson": 1500,
+    "slot": "morning",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "colombo",
+  "name": "Colombo",
+  "state": "Sri Lanka",
+  "country": "Sri Lanka",
+  "countryCode": "LK",
+  "region": "international",
+  "emoji": "🐘",
+  "gradient": "linear-gradient(135deg,#e9c46a,#264653)",
+  "tagline": "Colonial streets, seaside promenades and easy day trips.",
+  "bestFor": [
+   "culture",
+   "beaches",
+   "food"
+  ],
+  "intercityPP": 20000,
+  "stay": {
+   "budget": 2800,
+   "balanced": 5500,
+   "comfort": 13000
+  },
+  "food": {
+   "budget": 800,
+   "balanced": 1500,
+   "comfort": 3200
+  },
+  "local": {
+   "budget": 900,
+   "balanced": 1600,
+   "comfort": 3000
+  },
+  "transportTip": "tuk-tuk, PickMe/Uber or trains for day trips",
+  "dishes": [
+   "Rice & curry",
+   "Kottu roti",
+   "Hoppers",
+   "Lamprais"
+  ],
+  "visaPP": 1700,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "cmb-gallface",
+    "name": "Galle Face Green",
+    "desc": "Seafront promenade with street snacks at sunset.",
+    "categories": [
+     "relaxation",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "cmb-ganga",
+    "name": "Gangaramaya Temple",
+    "desc": "Eclectic Buddhist temple and museum.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1,
+    "costPerPerson": 300,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "cmb-museum",
+    "name": "Colombo National Museum",
+    "desc": "Sri Lankan art, regalia and history.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 400,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "cmb-pettah",
+    "name": "Pettah Market",
+    "desc": "Colourful open-air bazaar district.",
+    "categories": [
+     "shopping",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "cmb-lavinia",
+    "name": "Mount Lavinia Beach",
+    "desc": "Golden sand beach south of the city.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "cmb-lotus",
+    "name": "Lotus Tower",
+    "desc": "Tall tower with an observation deck.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 1500,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "cmb-kandy",
+    "name": "Kandy & Temple of the Tooth day trip",
+    "desc": "Hill-country city with a sacred relic temple.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 8,
+    "costPerPerson": 2500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "cmb-galle",
+    "name": "Galle Fort day trip",
+    "desc": "Dutch-era fort town on the coast.",
+    "categories": [
+     "history",
+     "beaches",
+     "culture"
+    ],
+    "hours": 8,
+    "costPerPerson": 2500,
+    "slot": "morning",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "maldives",
+  "name": "Maldives",
+  "state": "Maldives",
+  "country": "Maldives",
+  "countryCode": "MV",
+  "region": "international",
+  "emoji": "🐠",
+  "gradient": "linear-gradient(135deg,#00b4d8,#023e8a)",
+  "tagline": "Turquoise lagoons, overwater villas and world-class snorkelling.",
+  "bestFor": [
+   "beaches",
+   "relaxation",
+   "nature"
+  ],
+  "intercityPP": 30000,
+  "stay": {
+   "budget": 6000,
+   "balanced": 16000,
+   "comfort": 45000
+  },
+  "food": {
+   "budget": 2500,
+   "balanced": 5000,
+   "comfort": 10000
+  },
+  "local": {
+   "budget": 2500,
+   "balanced": 5000,
+   "comfort": 9000
+  },
+  "transportTip": "speedboat and ferry transfers",
+  "dishes": [
+   "Garudhiya",
+   "Mas huni",
+   "Grilled reef fish",
+   "Short eats"
+  ],
+  "visaPP": 0,
+  "insurancePPPerDay": 150,
+  "attractions": [
+   {
+    "id": "mle-snorkel",
+    "name": "House-reef snorkelling",
+    "desc": "Coral, turtles and reef fish near your island.",
+    "categories": [
+     "beaches",
+     "nature",
+     "adventure"
+    ],
+    "hours": 3,
+    "costPerPerson": 1500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mle-sandbank",
+    "name": "Sandbank picnic",
+    "desc": "Boat trip to a remote sandbank.",
+    "categories": [
+     "beaches",
+     "relaxation"
+    ],
+    "hours": 4,
+    "costPerPerson": 5000,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "mle-dolphin",
+    "name": "Sunset dolphin cruise",
+    "desc": "Boat cruise looking for dolphins.",
+    "categories": [
+     "nature",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 4500,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "mle-male",
+    "name": "Malé city walk",
+    "desc": "Fish market, Old Friday Mosque and the waterfront.",
+    "categories": [
+     "culture",
+     "history",
+     "sightseeing"
+    ],
+    "hours": 3,
+    "costPerPerson": 500,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mle-hop",
+    "name": "Local island hopping",
+    "desc": "Visit nearby inhabited islands and beaches.",
+    "categories": [
+     "culture",
+     "beaches"
+    ],
+    "hours": 5,
+    "costPerPerson": 3000,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "mle-dive",
+    "name": "Introductory scuba dive",
+    "desc": "Guided try-dive for beginners.",
+    "categories": [
+     "adventure",
+     "nature"
+    ],
+    "hours": 3,
+    "costPerPerson": 9000,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "mle-spa",
+    "name": "Spa session",
+    "desc": "Massage and wellness treatment.",
+    "categories": [
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 6000,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "mle-fishing",
+    "name": "Sunset fishing trip",
+    "desc": "Traditional line fishing followed by a barbecue.",
+    "categories": [
+     "food",
+     "nature"
+    ],
+    "hours": 2,
+    "costPerPerson": 3500,
+    "slot": "evening",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "paris",
+  "name": "Paris",
+  "state": "France",
+  "country": "France",
+  "countryCode": "FR",
+  "region": "international",
+  "emoji": "🗼",
+  "gradient": "linear-gradient(135deg,#6d597a,#355070)",
+  "tagline": "Art, café culture and iconic landmarks.",
+  "bestFor": [
+   "culture",
+   "history",
+   "food"
+  ],
+  "intercityPP": 62000,
+  "stay": {
+   "budget": 9000,
+   "balanced": 16000,
+   "comfort": 35000
+  },
+  "food": {
+   "budget": 2500,
+   "balanced": 4500,
+   "comfort": 9000
+  },
+  "local": {
+   "budget": 1000,
+   "balanced": 2000,
+   "comfort": 4000
+  },
+  "transportTip": "Metro and RER (Navigo or contactless)",
+  "dishes": [
+   "Croissant",
+   "Steak frites",
+   "Crêpes",
+   "French onion soup"
+  ],
+  "visaPP": 10000,
+  "insurancePPPerDay": 250,
+  "attractions": [
+   {
+    "id": "par-eiffel",
+    "name": "Eiffel Tower",
+    "desc": "Iconic tower with summit access.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 3500,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "par-louvre",
+    "name": "Louvre Museum",
+    "desc": "World's largest art museum.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 3.5,
+    "costPerPerson": 2000,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "par-seine",
+    "name": "Seine river cruise",
+    "desc": "Sightseeing boat past major landmarks.",
+    "categories": [
+     "sightseeing",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 1500,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "par-montmartre",
+    "name": "Montmartre & Sacré-Cœur",
+    "desc": "Hilltop basilica and artists' quarter.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "par-notredame",
+    "name": "Île de la Cité & Notre-Dame exterior",
+    "desc": "Historic island in the Seine.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "par-versailles",
+    "name": "Palace of Versailles day trip",
+    "desc": "Royal palace and formal gardens.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 6,
+    "costPerPerson": 2200,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "par-latin",
+    "name": "Latin Quarter cafés",
+    "desc": "Bookshops, bistros and student life.",
+    "categories": [
+     "food",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "par-orsay",
+    "name": "Musée d'Orsay",
+    "desc": "Impressionist masterpieces in a former station.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 1600,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "par-arc",
+    "name": "Champs-Élysées & Arc de Triomphe",
+    "desc": "Grand avenue for shopping and views.",
+    "categories": [
+     "shopping",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 1400,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "tokyo",
+  "name": "Tokyo",
+  "state": "Japan",
+  "country": "Japan",
+  "countryCode": "JP",
+  "region": "international",
+  "emoji": "🗾",
+  "gradient": "linear-gradient(135deg,#e63946,#1d3557)",
+  "tagline": "Neon skylines, serene shrines, superb food and spotless transit.",
+  "bestFor": [
+   "food",
+   "culture",
+   "shopping"
+  ],
+  "intercityPP": 55000,
+  "stay": {
+   "budget": 7000,
+   "balanced": 13000,
+   "comfort": 30000
+  },
+  "food": {
+   "budget": 2000,
+   "balanced": 3500,
+   "comfort": 7000
+  },
+  "local": {
+   "budget": 800,
+   "balanced": 1500,
+   "comfort": 3000
+  },
+  "transportTip": "JR trains and metro with a Suica/Pasmo IC card",
+  "dishes": [
+   "Sushi",
+   "Ramen",
+   "Tempura",
+   "Okonomiyaki"
+  ],
+  "visaPP": 2500,
+  "insurancePPPerDay": 250,
+  "attractions": [
+   {
+    "id": "tyo-sensoji",
+    "name": "Senso-ji & Asakusa",
+    "desc": "Tokyo's oldest temple and Nakamise shopping street.",
+    "categories": [
+     "culture",
+     "history",
+     "shopping"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "tyo-shibuya",
+    "name": "Shibuya Crossing & Shibuya Sky",
+    "desc": "Famous crossing and a rooftop observation deck.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 2000,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "tyo-meiji",
+    "name": "Meiji Shrine",
+    "desc": "Forested Shinto shrine in the city.",
+    "categories": [
+     "culture",
+     "nature"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "tyo-tsukiji",
+    "name": "Tsukiji Outer Market",
+    "desc": "Seafood and street snacks.",
+    "categories": [
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "tyo-akiba",
+    "name": "Akihabara",
+    "desc": "Anime, games and electronics hub.",
+    "categories": [
+     "shopping",
+     "culture"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "tyo-teamlab",
+    "name": "teamLab Planets",
+    "desc": "Immersive digital art museum.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 3200,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "tyo-fuji",
+    "name": "Mount Fuji & Hakone day trip",
+    "desc": "Day trip for Fuji views, lake cruise and ropeway.",
+    "categories": [
+     "nature",
+     "adventure",
+     "sightseeing"
+    ],
+    "hours": 10,
+    "costPerPerson": 6500,
+    "slot": "morning",
+    "intense": true
+   },
+   {
+    "id": "tyo-gyoen",
+    "name": "Shinjuku Gyoen",
+    "desc": "Large landscaped garden.",
+    "categories": [
+     "nature",
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 400,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "tyo-ueno",
+    "name": "Ueno Park & museums",
+    "desc": "Park, zoo and national museums.",
+    "categories": [
+     "history",
+     "culture",
+     "nature"
+    ],
+    "hours": 3,
+    "costPerPerson": 700,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "istanbul",
+  "name": "Istanbul",
+  "state": "Türkiye",
+  "country": "Türkiye",
+  "countryCode": "TR",
+  "region": "international",
+  "emoji": "🕌",
+  "gradient": "linear-gradient(135deg,#9b2226,#005f73)",
+  "tagline": "Where Europe meets Asia: grand mosques, bazaars and Bosphorus views.",
+  "bestFor": [
+   "history",
+   "culture",
+   "food"
+  ],
+  "intercityPP": 48000,
+  "stay": {
+   "budget": 4000,
+   "balanced": 8000,
+   "comfort": 20000
+  },
+  "food": {
+   "budget": 1500,
+   "balanced": 2800,
+   "comfort": 5500
+  },
+  "local": {
+   "budget": 700,
+   "balanced": 1400,
+   "comfort": 2800
+  },
+  "transportTip": "tram, metro and ferries (Istanbulkart)",
+  "dishes": [
+   "Kebabs",
+   "Simit",
+   "Baklava",
+   "Turkish breakfast"
+  ],
+  "visaPP": 5000,
+  "insurancePPPerDay": 200,
+  "attractions": [
+   {
+    "id": "ist-hagia",
+    "name": "Hagia Sophia",
+    "desc": "Byzantine-era landmark with a long history.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 2300,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ist-blue",
+    "name": "Blue Mosque",
+    "desc": "Six-minaret mosque famed for its blue tiles.",
+    "categories": [
+     "culture",
+     "history"
+    ],
+    "hours": 1,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ist-topkapi",
+    "name": "Topkapi Palace",
+    "desc": "Ottoman sultans' palace with treasury and harem.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 3,
+    "costPerPerson": 2200,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "ist-bazaar",
+    "name": "Grand Bazaar",
+    "desc": "One of the oldest covered markets.",
+    "categories": [
+     "shopping",
+     "culture"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "ist-bosphorus",
+    "name": "Bosphorus cruise",
+    "desc": "Ferry between Europe and Asia.",
+    "categories": [
+     "sightseeing",
+     "relaxation"
+    ],
+    "hours": 1.5,
+    "costPerPerson": 1000,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "ist-cistern",
+    "name": "Basilica Cistern",
+    "desc": "Underground Byzantine water reservoir.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 1,
+    "costPerPerson": 1300,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ist-galata",
+    "name": "Galata Tower & Karaköy",
+    "desc": "Viewpoint tower and café district.",
+    "categories": [
+     "sightseeing",
+     "food"
+    ],
+    "hours": 2,
+    "costPerPerson": 1300,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "ist-spice",
+    "name": "Spice Bazaar & Turkish breakfast",
+    "desc": "Spices, sweets and a long breakfast.",
+    "categories": [
+     "food",
+     "shopping"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "ist-hammam",
+    "name": "Traditional Turkish hammam",
+    "desc": "Steam bath and scrub.",
+    "categories": [
+     "relaxation",
+     "culture"
+    ],
+    "hours": 2,
+    "costPerPerson": 3000,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ },
+ {
+  "id": "london",
+  "name": "London",
+  "state": "United Kingdom",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "international",
+  "emoji": "🎡",
+  "gradient": "linear-gradient(135deg,#1d3557,#c1121f)",
+  "tagline": "Royal landmarks, free world-class museums and lively markets.",
+  "bestFor": [
+   "history",
+   "culture",
+   "sightseeing"
+  ],
+  "intercityPP": 68000,
+  "stay": {
+   "budget": 10000,
+   "balanced": 18000,
+   "comfort": 40000
+  },
+  "food": {
+   "budget": 3000,
+   "balanced": 5000,
+   "comfort": 9500
+  },
+  "local": {
+   "budget": 1500,
+   "balanced": 3000,
+   "comfort": 5500
+  },
+  "transportTip": "Underground, buses and contactless/Oyster tap-in",
+  "dishes": [
+   "Fish & chips",
+   "Sunday roast",
+   "Full English breakfast",
+   "Afternoon tea"
+  ],
+  "visaPP": 14000,
+  "insurancePPPerDay": 250,
+  "attractions": [
+   {
+    "id": "lon-tower",
+    "name": "Tower of London",
+    "desc": "Castle, Crown Jewels and Beefeaters.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 3,
+    "costPerPerson": 3200,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "lon-bm",
+    "name": "British Museum",
+    "desc": "Free-entry museum with global treasures.",
+    "categories": [
+     "history",
+     "culture"
+    ],
+    "hours": 3,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "lon-palace",
+    "name": "Buckingham Palace & St James's Park",
+    "desc": "Royal residence and park walk.",
+    "categories": [
+     "sightseeing",
+     "history"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "lon-eye",
+    "name": "London Eye",
+    "desc": "Giant observation wheel on the Thames.",
+    "categories": [
+     "sightseeing"
+    ],
+    "hours": 1,
+    "costPerPerson": 3000,
+    "slot": "evening",
+    "intense": false
+   },
+   {
+    "id": "lon-abbey",
+    "name": "Westminster Abbey & Big Ben area",
+    "desc": "Coronation church and Parliament Square.",
+    "categories": [
+     "history",
+     "sightseeing"
+    ],
+    "hours": 2,
+    "costPerPerson": 2600,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "lon-borough",
+    "name": "Borough Market",
+    "desc": "Food market near London Bridge.",
+    "categories": [
+     "food",
+     "shopping"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "lon-camden",
+    "name": "Camden Market",
+    "desc": "Alternative fashion, crafts and street food.",
+    "categories": [
+     "shopping",
+     "food",
+     "culture"
+    ],
+    "hours": 2.5,
+    "costPerPerson": 0,
+    "slot": "afternoon",
+    "intense": false
+   },
+   {
+    "id": "lon-hyde",
+    "name": "Hyde Park & Kensington Gardens",
+    "desc": "Royal parks for a relaxed stroll.",
+    "categories": [
+     "nature",
+     "relaxation"
+    ],
+    "hours": 2,
+    "costPerPerson": 0,
+    "slot": "morning",
+    "intense": false
+   },
+   {
+    "id": "lon-wb",
+    "name": "Warner Bros. Studio Tour (Harry Potter)",
+    "desc": "Sets and props from the films.",
+    "categories": [
+     "culture",
+     "sightseeing"
+    ],
+    "hours": 5,
+    "costPerPerson": 5800,
+    "slot": "afternoon",
+    "intense": false
+   }
+  ]
+ }
+]
