@@ -29,7 +29,8 @@ function toast(kind, text) {
   toastTimer = setTimeout(() => (el.innerHTML = ''), 4500);
 }
 
-function render() {
+function render(enter = false) {
+  $('app').classList.toggle('enter', enter);
   $('navbar').innerHTML = V.navbar(s.page, s.trips.length);
   let html = '';
   switch (s.page) {
@@ -47,7 +48,7 @@ function render() {
 function go(page) {
   s.page = page;
   if (page === 'services') loadEmergency();
-  render();
+  render(true);
   window.scrollTo({ top: 0 });
 }
 
@@ -131,7 +132,10 @@ async function copy() {
 
 const actions = {
   nav: (el) => go(el.dataset.page),
-  'pick-dest': (el) => { s.input.destinationId = el.dataset.id; render(); },
+  'pick-dest': (el) => {
+    s.input.destinationId = el.dataset.id;
+    for (const b of el.parentNode.children) { const on = b === el; b.classList.toggle('on', on); b.setAttribute('aria-pressed', on); }
+  },
   'plan-dest': (el) => { s.input.destinationId = el.dataset.id; s.destQuery = ''; go('home'); },
   'open-trip': (el) => {
     const t = s.trips.find((x) => x.id === el.dataset.id);

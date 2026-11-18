@@ -1,14 +1,14 @@
 import { esc, inr, cap, todayStr, dayDate } from './format.js';
 
-const COLORS = ['#0e9aa7', '#f77f00', '#0b2545', '#6cc3a0', '#e0b04b', '#9a8cc4', '#d96c8a'];
-const REGIONS = [['all', 'All'], ['domestic', '🇮🇳 India'], ['international', '🌍 International']];
+const COLORS = ['#10231d', '#2f5d4e', '#6f9a88', '#b7cfc3', '#c2410c', '#e3a07a', '#7c2d12'];
+const REGIONS = [['all', 'All'], ['domestic', 'India'], ['international', 'International']];
 const TIER = { budget: 'Budget', mid: 'Mid-range', luxury: 'Luxury' };
 const AGES = [['under18', 'Under 18'], ['18-25', '18–25'], ['26-40', '26–40'], ['41-60', '41–60'], ['above60', 'Above 60']];
 const NAV = [['home', 'Home'], ['explore', 'Explore Destinations'], ['trips', 'My Trips'], ['how', 'How It Works'], ['services', 'Services & Emergency'], ['about', 'About']];
 
 export function navbar(page, tripCount) {
   return `<header class="nav">
-    <button class="logo" data-action="nav" data-page="home" aria-label="Travel Ease home"><span class="logo-mark">✈</span> Travel<span>Ease</span></button>
+    <button class="logo" data-action="nav" data-page="home" aria-label="Travel Ease home"><i class="logo-dot"></i>Travel<span>Ease</span></button>
     <nav aria-label="Main">${NAV.map(([p, l]) =>
       `<button class="${page === p ? 'active' : ''}" data-action="nav" data-page="${p}" ${page === p ? 'aria-current="page"' : ''}>${l}${p === 'trips' && tripCount > 0 ? ` (${tripCount})` : ''}</button>`).join('')}
     </nav></header>`;
@@ -21,7 +21,7 @@ const inRegion = (d, region) => region === 'all' || d.region === region;
 
 export const destChips = (dests, input, q, region = 'all') => {
   const m = dests.filter((d) => inRegion(d, region) && `${d.name} ${d.state} ${d.country || ''}`.toLowerCase().includes(q.trim().toLowerCase()));
-  return m.map((d) => `<button type="button" role="radio" aria-checked="${input.destinationId === d.id}" class="chip${input.destinationId === d.id ? ' on' : ''}" data-action="pick-dest" data-id="${esc(d.id)}">${d.emoji} ${esc(d.name)}${d.region === 'international' ? ' <small>' + esc(d.country) + '</small>' : ''}</button>`).join('')
+  return m.map((d) => `<button type="button" aria-pressed="${input.destinationId === d.id}" class="chip${input.destinationId === d.id ? ' on' : ''}" data-action="pick-dest" data-id="${esc(d.id)}">${esc(d.name)}${d.region === 'international' ? ' <small>' + esc(d.country) + '</small>' : ''}</button>`).join('')
     || `<p class="muted">No destination matches “${esc(q)}”.</p>`;
 };
 
@@ -30,12 +30,12 @@ const opt = (v, l, cur) => `<option value="${v}"${cur === v ? ' selected' : ''}>
 
 export function planForm(s) {
   const { input: i, errors: e, loading, meta, destQuery } = s;
-  return `<form class="card form" id="plan-form" novalidate aria-label="Trip planning form">
+  return `<form class="card lift form" id="plan-form" novalidate aria-label="Trip planning form">
     <h2>Plan your trip</h2>
     <fieldset><legend>Destination *</legend>
       ${regionTabs(s.region)}
       <input type="search" id="dest-search" placeholder="Search destinations…" value="${esc(destQuery)}" aria-label="Search destinations" />
-      <div class="chips" id="dest-chips" role="radiogroup" aria-label="Destination">${destChips(meta.destinations, i, destQuery, s.region)}</div>
+      <div class="chips" id="dest-chips" role="group" aria-label="Destination">${destChips(meta.destinations, i, destQuery, s.region)}</div>
       ${err(e, 'destinationId')}
     </fieldset>
     <div class="grid2">
@@ -65,16 +65,16 @@ export function planForm(s) {
 }
 
 export function home(s) {
-  const feats = [['🎯 Personalized', 'Same destination, different plans based on your interests and budget.'],
-    ['💰 Budget-aware', 'Transparent cost breakdown with warnings and cheaper alternatives.'],
-    ['🗺️ Practical', 'Morning, afternoon and evening plans with meals and map links.'],
-    ['🌍 India & abroad', 'Plan trips across India and to 13 international destinations, with visa and insurance estimates.'],
-    ['🆘 Emergency ready', 'Local emergency numbers, hospitals nearby and embassy help for every trip.'],
-    ['✈️ Getting there & staying', 'Flight, train and bus suggestions, plus where to stay and trip essentials.']];
-  return `<section class="hero"><div class="container"><h1>Your Journey, Your Budget, Your Way.</h1>
-    <p>Generate personalized travel plans within your budget — day-by-day itineraries, costs and smart alternatives in seconds.</p></div></section>
-    <div class="container form-wrap">${planForm(s)}</div>
-    <section class="container features">${feats.map(([t, d]) => `<div class="card"><h3>${t}</h3><p>${d}</p></div>`).join('')}</section>`;
+  const feats = [['Personalized', 'Same destination, different plans based on your interests and budget.'],
+    ['Budget-aware', 'Transparent cost breakdown with warnings and cheaper alternatives.'],
+    ['Practical', 'Morning, afternoon and evening plans with meals and map links.'],
+    ['India & abroad', 'Plan trips across India and to 13 international destinations, with visa and insurance estimates.'],
+    ['Emergency ready', 'Local emergency numbers, hospitals nearby and embassy help for every trip.'],
+    ['Getting there & staying', 'Flight, train and bus suggestions, plus where to stay and trip essentials.']];
+  return `<section class="container hero"><div class="hero-copy"><h1>Your journey, your budget, your way.</h1>
+    <p>Generate personalized travel plans within your budget — day-by-day itineraries, costs and smart alternatives in seconds.</p>
+    <ol class="points">${feats.map(([t, d]) => `<li><div><b>${t}</b><span>${d}</span></div></li>`).join('')}</ol></div>
+    ${planForm(s)}</section>`;
 }
 
 export function explore(all, region = 'all') {
@@ -85,8 +85,7 @@ export function explore(all, region = 'all') {
       const low = d.food.budget + d.stay.budget / 2 + d.local.budget / 4;
       const high = d.food.comfort + d.stay.comfort / 2 + d.local.comfort / 4;
       return `<article class="card dest">
-        <div class="dest-img" style="background:${esc(d.gradient)}" aria-hidden="true"><span>${d.emoji}</span></div>
-        <h3>${esc(d.name)}, <small>${esc(d.state)}</small>${d.region === 'international' ? ' <span class="badge">International</span>' : ''}</h3><p>${esc(d.tagline)}</p>
+        <h3 class="dest-img" style="background:${esc(d.gradient)}"><small>${esc(d.state)}${d.region === 'international' ? ' · International' : ''}</small>${esc(d.name)}</h3><p>${esc(d.tagline)}</p>
         <p class="muted small"><b>Best for:</b> ${d.bestFor.join(', ')}</p>
         <p class="muted small"><b>Top attractions:</b> ${d.attractions.slice(0, 3).map((a) => esc(a.name)).join(', ')}</p>
         <p><b>${inr(low)} – ${inr(high)}</b> <span class="muted small">per person / day (illustrative)</span></p>
@@ -96,14 +95,14 @@ export function explore(all, region = 'all') {
 
 export function myTrips(trips) {
   const body = trips.length === 0
-    ? `<div class="card empty"><p>🧳 You haven’t saved any trips yet.</p><button class="btn primary" data-action="nav" data-page="home">Plan your first trip</button></div>`
+    ? `<div class="card empty"><p class="lead">No saved trips yet.</p><p class="muted">Generate an itinerary and press Save. Trips are kept in this browser.</p><button class="btn primary" data-action="nav" data-page="home">Plan your first trip</button></div>`
     : `<div class="cards">${trips.map((t) => `<article class="card">
         <h3>${esc(t.itinerary.destinationName)}</h3><p>${esc(t.itinerary.summary)}</p>
         <p class="muted small">Saved ${esc(new Date(t.savedAt).toLocaleString())}</p>
         <p><b>${inr(t.itinerary.budget.total)}</b> estimated · budget ${inr(t.input.budget)}
-          <span class="${t.itinerary.budget.withinBudget ? 'good' : 'bad'}">${t.itinerary.budget.withinBudget ? '✓ within budget' : '⚠ over budget'}</span></p>
+          <span class="${t.itinerary.budget.withinBudget ? 'good' : 'bad'}">${t.itinerary.budget.withinBudget ? 'Within budget' : 'Over budget'}</span></p>
         <div class="actions"><button class="btn primary" data-action="open-trip" data-id="${esc(t.id)}">View</button>
-          <button class="btn danger" data-action="delete-trip" data-id="${esc(t.id)}">Delete</button></div></article>`).join('')}</div>`;
+          <button class="btn ghost danger" data-action="delete-trip" data-id="${esc(t.id)}">Delete</button></div></article>`).join('')}</div>`;
   return `<section class="container"><h1>My Trips</h1>${body}</section>`;
 }
 
@@ -124,7 +123,7 @@ export function about() {
 }
 
 export function noResults() {
-  return `<div class="container"><div class="card empty"><p>No itinerary yet.</p><button class="btn primary" data-action="nav" data-page="home">Plan a trip</button></div></div>`;
+  return `<div class="container"><div class="card empty"><p class="lead">No itinerary yet.</p><p class="muted">Fill in the trip form and generate one.</p><button class="btn primary" data-action="nav" data-page="home">Plan a trip</button></div></div>`;
 }
 
 export function results({ itinerary: it, input, loading, trips }) {
@@ -132,9 +131,9 @@ export function results({ itinerary: it, input, loading, trips }) {
   const saved = trips.some((t) => t.id === it.id);
   const dis = loading ? ' disabled' : '';
   return `<section class="container results">
-    <div class="card summary"><div>
+    <div class="summary"><div>
       <h1>${esc(it.destinationName)} itinerary</h1><p>${esc(it.summary)}</p>
-      ${it.ai ? `<p class="ai"><strong>AI overview:</strong> ${esc(it.ai.overview)}</p>` : ''}
+      ${it.ai ? `<p class="ai"><strong>AI overview.</strong> ${esc(it.ai.overview)}</p>` : ''}
       <p class="muted">Planner: ${it.source === 'gemini' ? 'Gemini-enhanced wording on top of rule-based plan' : 'Rule-based planner (local dataset)'}</p></div>
       <div class="stats">
         <div><span>Duration</span><b>${input.days} day${input.days > 1 ? 's' : ''}</b></div>
@@ -142,16 +141,16 @@ export function results({ itinerary: it, input, loading, trips }) {
         <div><span>Estimated total</span><b>${inr(b.total)}</b></div>
         <div><span>Your budget</span><b>${inr(b.budget)}</b></div></div></div>
     <div class="actions">
-      <button class="btn primary" data-action="regenerate"${dis}>${loading ? 'Working…' : 'Regenerate Itinerary'}</button>
-      <button class="btn" data-action="nav" data-page="home">Edit Trip Details</button>
-      <button class="btn" data-action="save">${saved ? 'Saved ✓ (update)' : 'Save Trip'}</button>
-      <button class="btn" data-action="copy">Copy Itinerary</button>
-      <button class="btn" data-action="new-trip">Start New Trip</button></div>
-    <div class="banner ${b.withinBudget ? 'ok' : 'warn'}" role="status">${b.withinBudget ? `Within budget: about ${inr(b.remaining)} remaining.` : `⚠ ${esc(it.warning)}`}</div>
+      <button class="btn primary" data-action="regenerate"${dis}>${loading ? 'Working…' : 'Regenerate itinerary'}</button>
+      <button class="btn ghost" data-action="nav" data-page="home">Edit trip details</button>
+      <button class="btn" data-action="save">${saved ? 'Saved · update' : 'Save trip'}</button>
+      <button class="btn" data-action="copy">Copy itinerary</button>
+      <button class="btn ghost" data-action="new-trip">Start new trip</button></div>
+    <div class="banner ${b.withinBudget ? 'ok' : 'warn'}" role="status">${b.withinBudget ? `Within budget: about ${inr(b.remaining)} remaining.` : esc(it.warning)}</div>
     <div class="two-col"><div><h2>Day-by-day plan</h2>
       ${it.days.map((d) => {
         const dt = dayDate(input.startDate, d.day);
-        return `<article class="card day"><header><h3>Day ${d.day}${dt ? ` · ${dt}` : ''} · ${esc(d.theme)}</h3><span class="price">${inr(d.costs.total)}</span></header>
+        return `<article class="day"><header><h3>Day ${d.day}${dt ? ` · ${dt}` : ''} · ${esc(d.theme)}</h3><span class="price">${inr(d.costs.total)}</span></header>
           ${d.activities.map((a) => `<details class="activity"><summary><span class="time">${a.time} · ${a.slot}</span><strong>${esc(a.name)}</strong>
             <span class="muted">~${a.hours}h · ${a.totalCost ? inr(a.totalCost) : 'Free'}</span></summary>
             <p>${esc(a.desc)}</p><p><em>Why it fits:</em> ${esc(a.reason)}</p>
@@ -161,8 +160,8 @@ export function results({ itinerary: it, input, loading, trips }) {
           <p class="muted small">Day costs: activities ${inr(d.costs.activities)} · food ${inr(d.costs.food)} · local transport ${inr(d.costs.local)} · stay ${inr(d.costs.stay)}</p></article>`;
       }).join('')}</div>
       <aside>
-        <div class="card"><h2>Budget breakdown</h2>
-          <div class="bar" role="img" aria-label="Expense breakdown">${b.lines.map((l, k) => `<span style="width:${(l.total / b.total) * 100}%;background:${COLORS[k]}" title="${esc(l.label)}"></span>`).join('')}</div>
+        <div class="card lift"><h2>Budget breakdown</h2>
+          <div class="bar" role="img" aria-label="Expense breakdown, itemised in the table below">${b.lines.map((l, k) => `<span style="width:${(l.total / b.total) * 100}%;background:${COLORS[k]}" title="${esc(l.label)}"></span>`).join('')}</div>
           <table><tbody>
             ${b.lines.map((l, k) => `<tr><td><i class="dot" style="background:${COLORS[k]}"></i>${esc(l.label)}<div class="muted small">${esc(l.note)}</div></td>
               <td class="num">${inr(l.total)}<div class="muted small">${inr(l.perPerson)}/person</div></td></tr>`).join('')}
@@ -188,7 +187,7 @@ const links = (ls) => `<div class="linkrow">${ls.map((l) => `<a class="linkbtn" 
 const list = (xs) => `<ul>${xs.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`;
 
 export function emergencyCard(e) {
-  return `<div class="card emerg"><h3>🆘 Emergency numbers · ${esc(e.country)}</h3>
+  return `<div class="card emerg"><h3>Emergency numbers · ${esc(e.country)}</h3>
     <p class="bignum"><a href="tel:${esc(e.general.replace(/\s/g, ''))}">${esc(e.general)}</a> <span class="muted small">main emergency number</span></p>
     <table><tbody>${e.numbers.map((n) => `<tr><td>${esc(n.service)}</td><td class="num">${esc(n.number)}</td></tr>`).join('')}</tbody></table>
     ${e.note ? `<p class="muted small">${esc(e.note)}</p>` : ''}
@@ -201,17 +200,17 @@ export function servicesPanel(sv) {
   const t = sv.travel, st = sv.stay, es = sv.essentials;
   return `<div class="svc-grid">
     ${emergencyCard(sv.emergency)}
-    <div class="card"><h3>✈️ Getting there</h3>
+    <div class="card"><h3>Getting there</h3>
       ${t.planNote.map((n) => `<p class="small">${esc(n)}</p>`).join('')}
-      ${t.modes.map((m) => `<div class="mode"><b>${m.icon} ${esc(m.title)}</b>
+      ${t.modes.map((m) => `<div class="mode"><b>${esc(m.title)}</b>
         <p class="small">${esc(m.detail)}</p><p class="muted small">${esc(m.suggestion)}</p>${links(m.links)}</div>`).join('')}
       <p class="muted small">${esc(t.disclaimer)}</p></div>
-    <div class="card"><h3>🏨 Where to stay</h3>
+    <div class="card"><h3>Where to stay</h3>
       ${st.nightlyNote ? `<p class="small">${esc(st.nightlyNote)}</p>` : ''}
       ${st.areas.map((a) => `<div class="area"><span class="badge tier-${esc(a.tier)}">${esc(TIER[a.tier] || a.tier)}</span> <b>${esc(a.area)}</b>
         <span class="muted small"> · ${esc(a.why)}</span></div>`).join('')}
       <h4>Search stays</h4>${links(st.links)}${list(st.tips)}</div>
-    <div class="card"><h3>🧭 Trip essentials</h3>
+    <div class="card"><h3>Trip essentials</h3>
       <table><tbody>
         <tr><td>Best time</td><td>${esc(es.bestTime)}</td></tr>
         <tr><td>Currency</td><td>${esc(es.currency)}</td></tr>
